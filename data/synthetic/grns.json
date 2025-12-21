@@ -1,0 +1,1089 @@
+[
+  {
+    "grn_number": "GRN-08001",
+    "grn_date": "2025-10-31",
+    "po_reference": "PO-2024-01001",
+    "vendor_name": "Global Tech Solutions",
+    "received_by": "Christina King",
+    "warehouse": "WH-EAST",
+    "line_items": [
+      {
+        "item_code": "IN-002",
+        "description": "Steel Beam 10m I-Section",
+        "quantity_received": 5,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08002",
+    "grn_date": "2025-11-19",
+    "po_reference": "PO-2024-01002",
+    "vendor_name": "Nordic Supplies AB",
+    "received_by": "Brandon Larsen",
+    "warehouse": "WH-CENTRAL",
+    "line_items": [
+      {
+        "item_code": "OS-005",
+        "description": "File Cabinet 4-Drawer",
+        "quantity_received": 7,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08003",
+    "grn_date": "2025-12-02",
+    "po_reference": "PO-2024-01003",
+    "vendor_name": "Nordic Supplies AB",
+    "received_by": "Ian Davis",
+    "warehouse": "WH-NORTH",
+    "line_items": [
+      {
+        "item_code": "OS-004",
+        "description": "Whiteboard 6x4 ft",
+        "quantity_received": 4,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08004",
+    "grn_date": "2025-10-29",
+    "po_reference": "PO-2024-01004",
+    "vendor_name": "Pacific Traders",
+    "received_by": "John Santos",
+    "warehouse": "WH-CENTRAL",
+    "line_items": [
+      {
+        "item_code": "IN-003",
+        "description": "Safety Harness Kit",
+        "quantity_received": 13,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-004",
+        "description": "Industrial LED Lighting 100W",
+        "quantity_received": 12,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IT-001",
+        "description": "Dell Laptop XPS 15",
+        "quantity_received": 5,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08005",
+    "grn_date": "2025-11-30",
+    "po_reference": "PO-2024-01005",
+    "vendor_name": "Euro Parts Distributors",
+    "received_by": "Ricky Barrera",
+    "warehouse": "WH-EAST",
+    "line_items": [
+      {
+        "item_code": "OS-001",
+        "description": "Ergonomic Office Chair",
+        "quantity_received": 14,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08006",
+    "grn_date": "2025-11-16",
+    "po_reference": "PO-2024-01006",
+    "vendor_name": "Nordic Supplies AB",
+    "received_by": "Jennifer Mendez",
+    "warehouse": "WH-NORTH",
+    "line_items": [
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity_received": 7,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08007",
+    "grn_date": "2025-10-12",
+    "po_reference": "PO-2024-01007",
+    "vendor_name": "Quality Manufacturing",
+    "received_by": "Robert Taylor",
+    "warehouse": "WH-EAST",
+    "line_items": [
+      {
+        "item_code": "IN-002",
+        "description": "Steel Beam 10m I-Section",
+        "quantity_received": 1,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IT-002",
+        "description": "HP Desktop Workstation",
+        "quantity_received": 13,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08008",
+    "grn_date": "2025-11-02",
+    "po_reference": "PO-2024-01008",
+    "vendor_name": "Euro Parts Distributors",
+    "received_by": "Donald Carlson",
+    "warehouse": "WH-NORTH",
+    "line_items": [
+      {
+        "item_code": "OS-003",
+        "description": "Printer Paper A4 (5 Reams)",
+        "quantity_received": 3,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity_received": 4,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "OS-001",
+        "description": "Ergonomic Office Chair",
+        "quantity_received": 12,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08009",
+    "grn_date": "2025-10-11",
+    "po_reference": "PO-2024-01009",
+    "vendor_name": "Premier Office Equipment",
+    "received_by": "Steve Sanchez",
+    "warehouse": "WH-SOUTH",
+    "line_items": [
+      {
+        "item_code": "IT-003",
+        "description": "Cisco Network Switch 24-Port",
+        "quantity_received": 7,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "OS-003",
+        "description": "Printer Paper A4 (5 Reams)",
+        "quantity_received": 15,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08010",
+    "grn_date": "2025-10-12",
+    "po_reference": "PO-2024-01010",
+    "vendor_name": "Acme Supplies Ltd",
+    "received_by": "Michele Johnson",
+    "warehouse": "WH-EAST",
+    "line_items": [
+      {
+        "item_code": "IN-004",
+        "description": "Industrial LED Lighting 100W",
+        "quantity_received": 13,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IT-001",
+        "description": "Dell Laptop XPS 15",
+        "quantity_received": 5,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08011",
+    "grn_date": "2025-11-21",
+    "po_reference": "PO-2024-01011",
+    "vendor_name": "Industrial Components Inc",
+    "received_by": "Nancy Edwards",
+    "warehouse": "WH-WEST",
+    "line_items": [
+      {
+        "item_code": "OS-002",
+        "description": "Standing Desk Adjustable",
+        "quantity_received": 5,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity_received": 12,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "OS-003",
+        "description": "Printer Paper A4 (5 Reams)",
+        "quantity_received": 5,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IT-003",
+        "description": "Cisco Network Switch 24-Port",
+        "quantity_received": 7,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08012",
+    "grn_date": "2025-11-02",
+    "po_reference": "PO-2024-01012",
+    "vendor_name": "Premier Office Equipment",
+    "received_by": "Richard Rodriguez",
+    "warehouse": "WH-CENTRAL",
+    "line_items": [
+      {
+        "item_code": "IT-002",
+        "description": "HP Desktop Workstation",
+        "quantity_received": 3,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-003",
+        "description": "Safety Harness Kit",
+        "quantity_received": 13,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IT-001",
+        "description": "Dell Laptop XPS 15",
+        "quantity_received": 10,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity_received": 7,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08013",
+    "grn_date": "2025-11-21",
+    "po_reference": "PO-2024-01013",
+    "vendor_name": "Nordic Supplies AB",
+    "received_by": "Heather Tate",
+    "warehouse": "WH-WEST",
+    "line_items": [
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity_received": 12,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08014",
+    "grn_date": "2025-11-28",
+    "po_reference": "PO-2024-01014",
+    "vendor_name": "Quality Manufacturing",
+    "received_by": "Angela Webb",
+    "warehouse": "WH-SOUTH",
+    "line_items": [
+      {
+        "item_code": "IT-005",
+        "description": "Logitech Wireless Keyboard & Mouse",
+        "quantity_received": 7,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08015",
+    "grn_date": "2025-11-24",
+    "po_reference": "PO-2024-01015",
+    "vendor_name": "Nordic Supplies AB",
+    "received_by": "Jacob Flores",
+    "warehouse": "WH-SOUTH",
+    "line_items": [
+      {
+        "item_code": "OS-004",
+        "description": "Whiteboard 6x4 ft",
+        "quantity_received": 14,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IT-002",
+        "description": "HP Desktop Workstation",
+        "quantity_received": 14,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08016",
+    "grn_date": "2025-10-13",
+    "po_reference": "PO-2024-01016",
+    "vendor_name": "Quality Manufacturing",
+    "received_by": "Rose Brown",
+    "warehouse": "WH-SOUTH",
+    "line_items": [
+      {
+        "item_code": "OS-004",
+        "description": "Whiteboard 6x4 ft",
+        "quantity_received": 15,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-003",
+        "description": "Safety Harness Kit",
+        "quantity_received": 1,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08017",
+    "grn_date": "2025-10-17",
+    "po_reference": "PO-2024-01017",
+    "vendor_name": "Quality Manufacturing",
+    "received_by": "James King",
+    "warehouse": "WH-SOUTH",
+    "line_items": [
+      {
+        "item_code": "IT-004",
+        "description": "Samsung 27\" Monitor",
+        "quantity_received": 15,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IT-001",
+        "description": "Dell Laptop XPS 15",
+        "quantity_received": 2,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity_received": 8,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08018",
+    "grn_date": "2025-11-12",
+    "po_reference": "PO-2024-01018",
+    "vendor_name": "Pacific Traders",
+    "received_by": "Chad Reed",
+    "warehouse": "WH-NORTH",
+    "line_items": [
+      {
+        "item_code": "IT-005",
+        "description": "Logitech Wireless Keyboard & Mouse",
+        "quantity_received": 14,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "OS-004",
+        "description": "Whiteboard 6x4 ft",
+        "quantity_received": 4,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08019",
+    "grn_date": "2025-11-26",
+    "po_reference": "PO-2024-01019",
+    "vendor_name": "Euro Parts Distributors",
+    "received_by": "Patricia Johnson",
+    "warehouse": "WH-CENTRAL",
+    "line_items": [
+      {
+        "item_code": "OS-003",
+        "description": "Printer Paper A4 (5 Reams)",
+        "quantity_received": 2,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "OS-004",
+        "description": "Whiteboard 6x4 ft",
+        "quantity_received": 2,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity_received": 10,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08020",
+    "grn_date": "2025-12-12",
+    "po_reference": "PO-2024-01020",
+    "vendor_name": "Global Tech Solutions",
+    "received_by": "Casey Nolan",
+    "warehouse": "WH-NORTH",
+    "line_items": [
+      {
+        "item_code": "IT-004",
+        "description": "Samsung 27\" Monitor",
+        "quantity_received": 2,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08021",
+    "grn_date": "2025-11-15",
+    "po_reference": "PO-2024-01021",
+    "vendor_name": "Industrial Components Inc",
+    "received_by": "Michael Ortiz",
+    "warehouse": "WH-SOUTH",
+    "line_items": [
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity_received": 9,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "OS-003",
+        "description": "Printer Paper A4 (5 Reams)",
+        "quantity_received": 15,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IT-004",
+        "description": "Samsung 27\" Monitor",
+        "quantity_received": 10,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08022",
+    "grn_date": "2025-11-29",
+    "po_reference": "PO-2024-01022",
+    "vendor_name": "Global Tech Solutions",
+    "received_by": "Rodney Pena",
+    "warehouse": "WH-EAST",
+    "line_items": [
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity_received": 7,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08023",
+    "grn_date": "2025-10-14",
+    "po_reference": "PO-2024-01023",
+    "vendor_name": "Global Tech Solutions",
+    "received_by": "John Reilly",
+    "warehouse": "WH-EAST",
+    "line_items": [
+      {
+        "item_code": "OS-002",
+        "description": "Standing Desk Adjustable",
+        "quantity_received": 12,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08024",
+    "grn_date": "2025-10-11",
+    "po_reference": "PO-2024-01024",
+    "vendor_name": "Industrial Components Inc",
+    "received_by": "David Hamilton",
+    "warehouse": "WH-WEST",
+    "line_items": [
+      {
+        "item_code": "IT-003",
+        "description": "Cisco Network Switch 24-Port",
+        "quantity_received": 8,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "OS-002",
+        "description": "Standing Desk Adjustable",
+        "quantity_received": 15,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity_received": 13,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IT-005",
+        "description": "Logitech Wireless Keyboard & Mouse",
+        "quantity_received": 9,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08025",
+    "grn_date": "2025-11-15",
+    "po_reference": "PO-2024-01025",
+    "vendor_name": "Industrial Components Inc",
+    "received_by": "Nicholas Wilson",
+    "warehouse": "WH-EAST",
+    "line_items": [
+      {
+        "item_code": "OS-002",
+        "description": "Standing Desk Adjustable",
+        "quantity_received": 8,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "OS-003",
+        "description": "Printer Paper A4 (5 Reams)",
+        "quantity_received": 7,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08026",
+    "grn_date": "2025-10-29",
+    "po_reference": "PO-2024-01026",
+    "vendor_name": "Euro Parts Distributors",
+    "received_by": "Michael Ward",
+    "warehouse": "WH-WEST",
+    "line_items": [
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity_received": 8,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-003",
+        "description": "Safety Harness Kit",
+        "quantity_received": 12,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-004",
+        "description": "Industrial LED Lighting 100W",
+        "quantity_received": 13,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08027",
+    "grn_date": "2025-10-21",
+    "po_reference": "PO-2024-01027",
+    "vendor_name": "Swift Logistics Co",
+    "received_by": "Stacie Ingram",
+    "warehouse": "WH-SOUTH",
+    "line_items": [
+      {
+        "item_code": "IT-001",
+        "description": "Dell Laptop XPS 15",
+        "quantity_received": 12,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "OS-005",
+        "description": "File Cabinet 4-Drawer",
+        "quantity_received": 12,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08028",
+    "grn_date": "2025-11-05",
+    "po_reference": "PO-2024-01028",
+    "vendor_name": "Nordic Supplies AB",
+    "received_by": "Justin Flores",
+    "warehouse": "WH-WEST",
+    "line_items": [
+      {
+        "item_code": "IT-001",
+        "description": "Dell Laptop XPS 15",
+        "quantity_received": 2,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "OS-004",
+        "description": "Whiteboard 6x4 ft",
+        "quantity_received": 2,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08029",
+    "grn_date": "2025-11-21",
+    "po_reference": "PO-2024-01029",
+    "vendor_name": "Atlas Equipment Corp",
+    "received_by": "Logan Brown",
+    "warehouse": "WH-NORTH",
+    "line_items": [
+      {
+        "item_code": "OS-005",
+        "description": "File Cabinet 4-Drawer",
+        "quantity_received": 1,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity_received": 7,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08030",
+    "grn_date": "2025-11-06",
+    "po_reference": "PO-2024-01030",
+    "vendor_name": "Swift Logistics Co",
+    "received_by": "Richard Atkinson",
+    "warehouse": "WH-SOUTH",
+    "line_items": [
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity_received": 6,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-002",
+        "description": "Steel Beam 10m I-Section",
+        "quantity_received": 7,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08031",
+    "grn_date": "2025-11-03",
+    "po_reference": "PO-2024-01031",
+    "vendor_name": "Global Tech Solutions",
+    "received_by": "Anthony Carey",
+    "warehouse": "WH-CENTRAL",
+    "line_items": [
+      {
+        "item_code": "OS-003",
+        "description": "Printer Paper A4 (5 Reams)",
+        "quantity_received": 10,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08032",
+    "grn_date": "2025-11-23",
+    "po_reference": "PO-2024-01032",
+    "vendor_name": "Industrial Components Inc",
+    "received_by": "Brad Nielsen",
+    "warehouse": "WH-WEST",
+    "line_items": [
+      {
+        "item_code": "IT-003",
+        "description": "Cisco Network Switch 24-Port",
+        "quantity_received": 15,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "OS-001",
+        "description": "Ergonomic Office Chair",
+        "quantity_received": 5,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IT-002",
+        "description": "HP Desktop Workstation",
+        "quantity_received": 14,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08033",
+    "grn_date": "2025-11-11",
+    "po_reference": "PO-2024-01033",
+    "vendor_name": "Nordic Supplies AB",
+    "received_by": "Adam Johnson",
+    "warehouse": "WH-CENTRAL",
+    "line_items": [
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity_received": 14,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08034",
+    "grn_date": "2025-10-21",
+    "po_reference": "PO-2024-01034",
+    "vendor_name": "Global Tech Solutions",
+    "received_by": "Cynthia Stone",
+    "warehouse": "WH-NORTH",
+    "line_items": [
+      {
+        "item_code": "IN-002",
+        "description": "Steel Beam 10m I-Section",
+        "quantity_received": 9,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08035",
+    "grn_date": "2025-11-25",
+    "po_reference": "PO-2024-01035",
+    "vendor_name": "Quality Manufacturing",
+    "received_by": "Travis Rhodes",
+    "warehouse": "WH-WEST",
+    "line_items": [
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity_received": 14,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity_received": 8,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08036",
+    "grn_date": "2025-11-08",
+    "po_reference": "PO-2024-01036",
+    "vendor_name": "Euro Parts Distributors",
+    "received_by": "Ashley Jacobson",
+    "warehouse": "WH-WEST",
+    "line_items": [
+      {
+        "item_code": "IT-001",
+        "description": "Dell Laptop XPS 15",
+        "quantity_received": 11,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity_received": 4,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "OS-001",
+        "description": "Ergonomic Office Chair",
+        "quantity_received": 6,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08037",
+    "grn_date": "2025-10-16",
+    "po_reference": "PO-2024-01037",
+    "vendor_name": "Global Tech Solutions",
+    "received_by": "Joshua Townsend",
+    "warehouse": "WH-WEST",
+    "line_items": [
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity_received": 8,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08038",
+    "grn_date": "2025-11-04",
+    "po_reference": "PO-2024-01038",
+    "vendor_name": "Atlas Equipment Corp",
+    "received_by": "Darlene Obrien",
+    "warehouse": "WH-WEST",
+    "line_items": [
+      {
+        "item_code": "OS-002",
+        "description": "Standing Desk Adjustable",
+        "quantity_received": 0,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IT-003",
+        "description": "Cisco Network Switch 24-Port",
+        "quantity_received": 11,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08039",
+    "grn_date": "2025-11-06",
+    "po_reference": "PO-2024-01039",
+    "vendor_name": "Industrial Components Inc",
+    "received_by": "Christopher Morgan",
+    "warehouse": "WH-CENTRAL",
+    "line_items": [
+      {
+        "item_code": "OS-001",
+        "description": "Ergonomic Office Chair",
+        "quantity_received": 9,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08040",
+    "grn_date": "2025-10-21",
+    "po_reference": "PO-2024-01040",
+    "vendor_name": "Industrial Components Inc",
+    "received_by": "Michael Vasquez",
+    "warehouse": "WH-CENTRAL",
+    "line_items": [
+      {
+        "item_code": "IN-003",
+        "description": "Safety Harness Kit",
+        "quantity_received": 2,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity_received": 0,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08041",
+    "grn_date": "2025-11-27",
+    "po_reference": "PO-2024-01041",
+    "vendor_name": "Swift Logistics Co",
+    "received_by": "Frank Oliver",
+    "warehouse": "WH-NORTH",
+    "line_items": [
+      {
+        "item_code": "IN-003",
+        "description": "Safety Harness Kit",
+        "quantity_received": 1,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-002",
+        "description": "Steel Beam 10m I-Section",
+        "quantity_received": 0,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08042",
+    "grn_date": "2025-10-30",
+    "po_reference": "PO-2024-01042",
+    "vendor_name": "Quality Manufacturing",
+    "received_by": "Mr. Donald Lyons",
+    "warehouse": "WH-EAST",
+    "line_items": [
+      {
+        "item_code": "IN-004",
+        "description": "Industrial LED Lighting 100W",
+        "quantity_received": 4,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-003",
+        "description": "Safety Harness Kit",
+        "quantity_received": 4,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IT-004",
+        "description": "Samsung 27\" Monitor",
+        "quantity_received": 5,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08043",
+    "grn_date": "2025-12-15",
+    "po_reference": "PO-2024-01043",
+    "vendor_name": "Nordic Supplies AB",
+    "received_by": "Catherine Graham",
+    "warehouse": "WH-SOUTH",
+    "line_items": [
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity_received": 1,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-004",
+        "description": "Industrial LED Lighting 100W",
+        "quantity_received": 5,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "OS-004",
+        "description": "Whiteboard 6x4 ft",
+        "quantity_received": 5,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "OS-001",
+        "description": "Ergonomic Office Chair",
+        "quantity_received": 9,
+        "quantity_rejected": 1,
+        "condition": "Damaged/Defective"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08044",
+    "grn_date": "2025-11-02",
+    "po_reference": "PO-2024-01044",
+    "vendor_name": "Nordic Supplies AB",
+    "received_by": "Christian Shannon",
+    "warehouse": "WH-CENTRAL",
+    "line_items": [
+      {
+        "item_code": "OS-002",
+        "description": "Standing Desk Adjustable",
+        "quantity_received": 13,
+        "quantity_rejected": 2,
+        "condition": "Damaged/Defective"
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-08045",
+    "grn_date": "2025-10-10",
+    "po_reference": "PO-2024-01045",
+    "vendor_name": "Acme Supplies Ltd",
+    "received_by": "Jason Fitzgerald",
+    "warehouse": "WH-NORTH",
+    "line_items": [
+      {
+        "item_code": "OS-001",
+        "description": "Ergonomic Office Chair",
+        "quantity_received": 2,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "OS-002",
+        "description": "Standing Desk Adjustable",
+        "quantity_received": 13,
+        "quantity_rejected": 2,
+        "condition": "Damaged/Defective"
+      }
+    ]
+  }
+]
