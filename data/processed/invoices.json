@@ -1,0 +1,1827 @@
+[
+  {
+    "document_type": "invoice",
+    "invoice_number": "INV-005001",
+    "invoice_date": "2025-10-30",
+    "due_date": "2025-11-29",
+    "vendor_name": "Global Tech Solutions",
+    "vendor_id": "V-1002",
+    "po_reference": "PO-2024-01001",
+    "payment_terms": null,
+    "currency": "USD",
+    "total_amount": 3010.72,
+    "subtotal": 2867.35,
+    "tax": 143.37,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "INV-005001_classic.pdf",
+      "file_size": 3086,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:39:39.645325",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005002",
+    "invoice_date": "2025-11-06",
+    "due_date": "2025-12-06",
+    "vendor_name": "Nordic Supplies AB",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01002",
+    "payment_terms": "Net 45",
+    "currency": "USD",
+    "total_amount": 1224.23,
+    "subtotal": 1083.39,
+    "tax": 140.84,
+    "line_items": [
+      {
+        "item_code": "OS-005",
+        "description": "File Cabinet 4-Drawer",
+        "quantity": 7,
+        "unit_price": 154.77,
+        "total": 1083.39
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 1,
+    "metadata": {
+      "filename": "INV-005002_creative.pdf",
+      "file_size": 2553,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:39:45.733784",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "invoice",
+    "invoice_number": "INV-005003",
+    "invoice_date": "2025-11-22",
+    "due_date": "2025-12-22",
+    "vendor_name": "Nordic Supplies AB",
+    "vendor_id": "V-1009",
+    "po_reference": "PO-2024-01003",
+    "payment_terms": null,
+    "currency": "USD",
+    "total_amount": 755.04,
+    "subtotal": 686.4,
+    "tax": 68.64,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "INV-005003_classic.pdf",
+      "file_size": 3070,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:39:45.778000",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005004",
+    "invoice_date": "2025-11-04",
+    "due_date": "2025-12-04",
+    "vendor_name": "Pacific Traders",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01004",
+    "payment_terms": "Net 60",
+    "currency": "USD",
+    "total_amount": 12180.21,
+    "subtotal": 10778.95,
+    "tax": 1401.26,
+    "line_items": [
+      {
+        "item_code": "IN-004",
+        "description": "Industrial LED Lighting 100W",
+        "quantity": 12,
+        "unit_price": 109.58,
+        "total": 1314.96
+      },
+      {
+        "item_code": "IT-001",
+        "description": "Dell Laptop XPS 15",
+        "quantity": 5,
+        "unit_price": 1293.29,
+        "total": 6466.45
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 2,
+    "metadata": {
+      "filename": "INV-005004_modern.pdf",
+      "file_size": 2584,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:39:53.888682",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "invoice",
+    "invoice_number": "INV-005005",
+    "invoice_date": "2025-11-25",
+    "due_date": "2025-12-25",
+    "vendor_name": "Euro Parts Distributors",
+    "vendor_id": "V-1007",
+    "po_reference": "PO-2024-01005",
+    "payment_terms": null,
+    "currency": "USD",
+    "total_amount": 5043.26,
+    "subtotal": 4463.06,
+    "tax": 580.2,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "INV-005005_classic.pdf",
+      "file_size": 3090,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:39:53.936069",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "invoice",
+    "invoice_number": "INV-005006",
+    "invoice_date": "2025-11-08",
+    "due_date": "2025-12-08",
+    "vendor_name": "Nordic Supplies AB",
+    "vendor_id": "V-1009",
+    "po_reference": "PO-2024-01006",
+    "payment_terms": null,
+    "currency": "USD",
+    "total_amount": 3262.03,
+    "subtotal": 2965.48,
+    "tax": 296.55,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "INV-005006_classic.pdf",
+      "file_size": 3071,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:39:53.968539",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005007",
+    "invoice_date": "2025-10-19",
+    "due_date": "2025-11-18",
+    "vendor_name": "Quality Manufacturing",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01007",
+    "payment_terms": "Net 60",
+    "currency": "USD",
+    "total_amount": 15104.97,
+    "subtotal": 13731.79,
+    "tax": 1373.18,
+    "line_items": [
+      {
+        "item_code": "IT-002",
+        "description": "HP Desktop Workstation",
+        "quantity": 13,
+        "unit_price": 1002.57,
+        "total": 13033.41
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 1,
+    "metadata": {
+      "filename": "INV-005007_modern.pdf",
+      "file_size": 2519,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:40:02.429031",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005008",
+    "invoice_date": "2025-10-14",
+    "due_date": "2025-11-13",
+    "vendor_name": "Euro Parts Distributors",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01008",
+    "payment_terms": "Due on Receipt",
+    "currency": "USD",
+    "total_amount": 18749.5,
+    "subtotal": 17360.65,
+    "tax": 1388.85,
+    "line_items": [
+      {
+        "item_code": "OS-003",
+        "description": "Printer Paper A4 (5 Reams)",
+        "quantity": 3,
+        "unit_price": 30.55,
+        "total": 91.65
+      },
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity": 4,
+        "unit_price": 3005.26,
+        "total": 12021.04
+      },
+      {
+        "item_code": "OS-001",
+        "description": "Ergonomic Office Chair",
+        "quantity": 12,
+        "unit_price": 437.33,
+        "total": 5247.96
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 3,
+    "metadata": {
+      "filename": "INV-005008_modern.pdf",
+      "file_size": 2637,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:40:12.183845",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "invoice",
+    "invoice_number": "INV-005009",
+    "invoice_date": "2025-10-16",
+    "due_date": "2025-11-15",
+    "vendor_name": "Premier Office Equipment",
+    "vendor_id": "V-1003",
+    "po_reference": "PO-2024-01009",
+    "payment_terms": null,
+    "currency": "USD",
+    "total_amount": 5550.15,
+    "subtotal": 5285.86,
+    "tax": 264.29,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "INV-005009_classic.pdf",
+      "file_size": 3206,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:40:12.239457",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005010",
+    "invoice_date": "2025-10-09",
+    "due_date": "2025-11-08",
+    "vendor_name": "Acme Supplies Ltd",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01010",
+    "payment_terms": "Net 60",
+    "currency": "USD",
+    "total_amount": 7525.59,
+    "subtotal": 7525.59,
+    "tax": 0.0,
+    "line_items": [
+      {
+        "item_code": "IN-004",
+        "description": "Industrial LED Lighting 100W",
+        "quantity": 13,
+        "unit_price": 102.08,
+        "total": 1327.04
+      },
+      {
+        "item_code": "IT-001",
+        "description": "Dell Laptop XPS 15",
+        "quantity": 5,
+        "unit_price": 1239.71,
+        "total": 6198.55
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 2,
+    "metadata": {
+      "filename": "INV-005010_modern.pdf",
+      "file_size": 2508,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:40:17.538502",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005011",
+    "invoice_date": "2025-11-16",
+    "due_date": "2025-12-16",
+    "vendor_name": "Industrial Components Inc",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01011",
+    "payment_terms": "Net 60",
+    "currency": "USD",
+    "total_amount": 45986.99,
+    "subtotal": 42580.55,
+    "tax": 3406.44,
+    "line_items": [
+      {
+        "item_code": "OS-002",
+        "description": "Standing Desk Adjustable",
+        "quantity": 5,
+        "unit_price": 441.89,
+        "total": 2209.45
+      },
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity": 12,
+        "unit_price": 2842.05,
+        "total": 34104.6
+      },
+      {
+        "item_code": "OS-003",
+        "description": "Printer Paper A4 (5 Reams)",
+        "quantity": 5,
+        "unit_price": 36.21,
+        "total": 181.05
+      },
+      {
+        "item_code": "IT-003",
+        "description": "Cisco Network Switch 24-Port",
+        "quantity": 7,
+        "unit_price": 869.35,
+        "total": 6085.45
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 4,
+    "metadata": {
+      "filename": "INV-005011_modern.pdf",
+      "file_size": 2724,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:40:24.632689",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "invoice",
+    "invoice_number": "INV-005012",
+    "invoice_date": "2025-10-28",
+    "due_date": "2025-11-27",
+    "vendor_name": "Premier Office Equipment",
+    "vendor_id": "V-1003",
+    "po_reference": "PO-2024-01012",
+    "payment_terms": null,
+    "currency": "USD",
+    "total_amount": 25972.9,
+    "subtotal": 22984.87,
+    "tax": 2988.03,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "INV-005012_classic.pdf",
+      "file_size": 3382,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:40:24.680184",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005013",
+    "invoice_date": "2025-10-31",
+    "due_date": "2025-11-30",
+    "vendor_name": "Nordic Supplies AB",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01013",
+    "payment_terms": "Net 45",
+    "currency": "USD",
+    "total_amount": 27365.06,
+    "subtotal": 26061.96,
+    "tax": 1303.1,
+    "line_items": [
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity": 12,
+        "unit_price": 2171.83,
+        "total": 26061.96
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 1,
+    "metadata": {
+      "filename": "INV-005013_creative.pdf",
+      "file_size": 2564,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:40:29.914394",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "invoice",
+    "invoice_number": "INV-005014",
+    "invoice_date": "2025-11-27",
+    "due_date": "2025-12-27",
+    "vendor_name": "Quality Manufacturing",
+    "vendor_id": "V-1006",
+    "po_reference": "PO-2024-01014",
+    "payment_terms": null,
+    "currency": "USD",
+    "total_amount": 425.64,
+    "subtotal": 405.37,
+    "tax": 20.27,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "INV-005014_classic.pdf",
+      "file_size": 3102,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:40:29.956373",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005015",
+    "invoice_date": "2025-11-16",
+    "due_date": "2025-12-16",
+    "vendor_name": "Nordic Supplies AB",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01015",
+    "payment_terms": "Due on Receipt",
+    "currency": "USD",
+    "total_amount": 21710.0,
+    "subtotal": 19737.06,
+    "tax": 1973.71,
+    "line_items": [
+      {
+        "item_code": "OS-004",
+        "description": "Whiteboard 6x4 ft",
+        "quantity": 14,
+        "unit_price": 162.53,
+        "total": 2275.42
+      },
+      {
+        "item_code": "IT-002",
+        "description": "HP Desktop Workstation",
+        "quantity": 14,
+        "unit_price": 1247.26,
+        "total": 17461.64
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 2,
+    "metadata": {
+      "filename": "INV-005015_modern.pdf",
+      "file_size": 2525,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:40:36.287898",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005016",
+    "invoice_date": "2025-10-13",
+    "due_date": "2025-11-12",
+    "vendor_name": "Quality Manufacturing",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01016",
+    "payment_terms": "Due on Receipt",
+    "currency": "USD",
+    "total_amount": 2831.2,
+    "subtotal": 2505.49,
+    "tax": 325.71,
+    "line_items": [
+      {
+        "item_code": "OS-004",
+        "description": "Whiteboard 6x4 ft",
+        "quantity": 15,
+        "unit_price": 153.04,
+        "total": 2295.6
+      },
+      {
+        "item_code": "IN-003",
+        "description": "Safety Harness Kit",
+        "quantity": 1,
+        "unit_price": 209.89,
+        "total": 209.89
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 2,
+    "metadata": {
+      "filename": "INV-005016_modern.pdf",
+      "file_size": 2520,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:40:42.839218",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "invoice",
+    "invoice_number": "INV-005017",
+    "invoice_date": "2025-10-21",
+    "due_date": "2025-11-20",
+    "vendor_name": "Quality Manufacturing",
+    "vendor_id": "V-1006",
+    "po_reference": "PO-2024-01017",
+    "payment_terms": null,
+    "currency": "USD",
+    "total_amount": 13863.31,
+    "subtotal": 13863.31,
+    "tax": 0.0,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "INV-005017_classic.pdf",
+      "file_size": 3286,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:40:42.881052",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005018",
+    "invoice_date": "2025-11-10",
+    "due_date": "2025-12-10",
+    "vendor_name": "Pacific Traders",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01018",
+    "payment_terms": "Net 30",
+    "currency": "USD",
+    "total_amount": 2085.8,
+    "subtotal": 1896.18,
+    "tax": 189.62,
+    "line_items": [
+      {
+        "item_code": "IT-005",
+        "description": "Logitech Wireless Keyboard & Mouse",
+        "quantity": 14,
+        "unit_price": 80.33,
+        "total": 1124.62
+      },
+      {
+        "item_code": "OS-004",
+        "description": "Whiteboard 6x4 ft",
+        "quantity": 4,
+        "unit_price": 192.89,
+        "total": 771.56
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 2,
+    "metadata": {
+      "filename": "INV-005018_creative.pdf",
+      "file_size": 2684,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:40:47.590033",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "invoice",
+    "invoice_number": "INV-005019",
+    "invoice_date": "2025-12-08",
+    "due_date": "2026-01-07",
+    "vendor_name": "Euro Parts Distributors",
+    "vendor_id": "V-1007",
+    "po_reference": "PO-2024-01019",
+    "payment_terms": null,
+    "currency": "USD",
+    "total_amount": 6585.55,
+    "subtotal": 5986.86,
+    "tax": 598.69,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "INV-005019_classic.pdf",
+      "file_size": 3316,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:40:47.646727",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005020",
+    "invoice_date": "2025-11-19",
+    "due_date": "2025-12-19",
+    "vendor_name": "Global Tech Solutions",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01020",
+    "payment_terms": "Net 60",
+    "currency": "USD",
+    "total_amount": 1039.1,
+    "subtotal": 962.16,
+    "tax": 76.97,
+    "line_items": [
+      {
+        "item_code": "IT-004",
+        "description": "Samsung 27\" Monitor",
+        "quantity": 2,
+        "unit_price": 481.08,
+        "total": 962.16
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 1,
+    "metadata": {
+      "filename": "INV-005020_modern.pdf",
+      "file_size": 2401,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:40:53.391170",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005021",
+    "invoice_date": "2025-11-15",
+    "due_date": "2025-12-15",
+    "vendor_name": "Industrial Components Inc",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01021",
+    "payment_terms": "Net 45",
+    "currency": "USD",
+    "total_amount": 26735.64,
+    "subtotal": 24305.13,
+    "tax": 2430.51,
+    "line_items": [
+      {
+        "item_code": "OS-003",
+        "description": "Printer Paper A4 (5 Reams)",
+        "quantity": 15,
+        "unit_price": 38.24,
+        "total": 573.6
+      },
+      {
+        "item_code": "IT-004",
+        "description": "Samsung 27\" Monitor",
+        "quantity": 10,
+        "unit_price": 394.53,
+        "total": 3945.3
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 2,
+    "metadata": {
+      "filename": "INV-005021_creative.pdf",
+      "file_size": 2793,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:40:59.935041",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005022",
+    "invoice_date": "2025-12-06",
+    "due_date": "2026-01-05",
+    "vendor_name": "Global Tech Solutions",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01022",
+    "payment_terms": "Net 60",
+    "currency": "USD",
+    "total_amount": 18606.16,
+    "subtotal": 17720.15,
+    "tax": 886.01,
+    "line_items": [
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity": 7,
+        "unit_price": 2531.45,
+        "total": 17720.15
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 1,
+    "metadata": {
+      "filename": "INV-005022_modern.pdf",
+      "file_size": 2427,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:41:06.074151",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "invoice",
+    "invoice_number": "INV-005023",
+    "invoice_date": "2025-10-14",
+    "due_date": "2025-11-13",
+    "vendor_name": "Global Tech Solutions",
+    "vendor_id": "V-1002",
+    "po_reference": "PO-2024-01023",
+    "payment_terms": null,
+    "currency": "USD",
+    "total_amount": 6623.63,
+    "subtotal": 6021.48,
+    "tax": 602.15,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "INV-005023_classic.pdf",
+      "file_size": 3085,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:41:06.116476",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "invoice",
+    "invoice_number": "INV-005024",
+    "invoice_date": "2025-10-16",
+    "due_date": "2025-11-15",
+    "vendor_name": "Industrial Components Inc",
+    "vendor_id": "V-1004",
+    "po_reference": "PO-2024-01024",
+    "payment_terms": null,
+    "currency": "USD",
+    "total_amount": 22455.49,
+    "subtotal": 20792.12,
+    "tax": 1663.37,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "INV-005024_classic.pdf",
+      "file_size": 3431,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:41:06.151095",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005025",
+    "invoice_date": "2025-11-14",
+    "due_date": "2025-12-14",
+    "vendor_name": "Industrial Components Inc",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01025",
+    "payment_terms": "Net 45",
+    "currency": "USD",
+    "total_amount": 4381.01,
+    "subtotal": 3982.74,
+    "tax": 398.27,
+    "line_items": [
+      {
+        "item_code": "OS-002",
+        "description": "Standing Desk Adjustable",
+        "quantity": 8,
+        "unit_price": 464.12,
+        "total": 3712.96
+      },
+      {
+        "item_code": "OS-003",
+        "description": "Printer Paper A4 (5 Reams)",
+        "quantity": 7,
+        "unit_price": 38.54,
+        "total": 269.78
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 2,
+    "metadata": {
+      "filename": "INV-005025_creative.pdf",
+      "file_size": 2680,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:41:11.876362",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005026",
+    "invoice_date": "2025-11-06",
+    "due_date": "2025-12-06",
+    "vendor_name": "Euro Parts Distributors",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01026",
+    "payment_terms": "Net 30",
+    "currency": "USD",
+    "total_amount": 9468.29,
+    "subtotal": 8379.02,
+    "tax": 1089.27,
+    "line_items": [
+      {
+        "item_code": "IN-003",
+        "description": "Safety Harness Kit",
+        "quantity": 12,
+        "unit_price": 245.73,
+        "total": 2948.76
+      },
+      {
+        "item_code": "IN-004",
+        "description": "Industrial LED Lighting 100W",
+        "quantity": 13,
+        "unit_price": 118.9,
+        "total": 1545.7
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 2,
+    "metadata": {
+      "filename": "INV-005026_creative.pdf",
+      "file_size": 2739,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:41:20.193429",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "invoice",
+    "invoice_number": "INV-005027",
+    "invoice_date": "2025-10-13",
+    "due_date": "2025-11-12",
+    "vendor_name": "Swift Logistics Co",
+    "vendor_id": "V-1005",
+    "po_reference": "PO-2024-01027",
+    "payment_terms": null,
+    "currency": "USD",
+    "total_amount": 23355.2,
+    "subtotal": 20668.32,
+    "tax": 2686.88,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "INV-005027_classic.pdf",
+      "file_size": 3177,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:41:20.244010",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005028",
+    "invoice_date": "2025-10-30",
+    "due_date": "2025-11-29",
+    "vendor_name": "Nordic Supplies AB",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01028",
+    "payment_terms": "Net 45",
+    "currency": "USD",
+    "total_amount": 4114.68,
+    "subtotal": 3740.62,
+    "tax": 374.06,
+    "line_items": [
+      {
+        "item_code": "IT-001",
+        "description": "Dell Laptop XPS 15",
+        "quantity": 2,
+        "unit_price": 1710.81,
+        "total": 3421.62
+      },
+      {
+        "item_code": "OS-004",
+        "description": "Whiteboard 6x4 ft",
+        "quantity": 2,
+        "unit_price": 159.5,
+        "total": 319.0
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 2,
+    "metadata": {
+      "filename": "INV-005028_creative.pdf",
+      "file_size": 2650,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:41:26.090599",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005029",
+    "invoice_date": "2025-11-20",
+    "due_date": "2025-12-20",
+    "vendor_name": "Atlas Equipment Corp",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01029",
+    "payment_terms": "Net 30",
+    "currency": "USD",
+    "total_amount": 4644.5,
+    "subtotal": 4423.38,
+    "tax": 221.17,
+    "line_items": [
+      {
+        "item_code": "OS-005",
+        "description": "File Cabinet 4-Drawer",
+        "quantity": 1,
+        "unit_price": 242.91,
+        "total": 242.91
+      },
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity": 7,
+        "unit_price": 597.21,
+        "total": 4180.47
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 2,
+    "metadata": {
+      "filename": "INV-005029_modern.pdf",
+      "file_size": 2490,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:41:31.569016",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005030",
+    "invoice_date": "2025-10-29",
+    "due_date": "2025-11-28",
+    "vendor_name": "Swift Logistics Co",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01030",
+    "payment_terms": "Net 60",
+    "currency": "USD",
+    "total_amount": 19715.3,
+    "subtotal": 17923.0,
+    "tax": 1792.3,
+    "line_items": [
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity": 6,
+        "unit_price": 2358.03,
+        "total": 14148.18
+      },
+      {
+        "item_code": "IN-002",
+        "description": "Steel Beam 10m I-Section",
+        "quantity": 7,
+        "unit_price": 539.26,
+        "total": 3774.82
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 2,
+    "metadata": {
+      "filename": "INV-005030_modern.pdf",
+      "file_size": 2520,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:41:38.420901",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005031",
+    "invoice_date": "2025-10-17",
+    "due_date": "2025-11-16",
+    "vendor_name": "Global Tech Solutions",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01031",
+    "payment_terms": "Net 60",
+    "currency": "USD",
+    "total_amount": 476.19,
+    "subtotal": 432.9,
+    "tax": 43.29,
+    "line_items": [
+      {
+        "item_code": "OS-003",
+        "description": "Printer Paper A4 (5 Reams)",
+        "quantity": 10,
+        "unit_price": 43.29,
+        "total": 432.9
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 1,
+    "metadata": {
+      "filename": "INV-005031_creative.pdf",
+      "file_size": 2562,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:41:43.955660",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005032",
+    "invoice_date": "2025-11-11",
+    "due_date": "2025-12-11",
+    "vendor_name": "Industrial Components Inc",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01032",
+    "payment_terms": "Net 30",
+    "currency": "USD",
+    "total_amount": 31040.35,
+    "subtotal": 28218.5,
+    "tax": 2821.85,
+    "line_items": [
+      {
+        "item_code": "IT-003",
+        "description": "Cisco Network Switch 24-Port",
+        "quantity": 15,
+        "unit_price": 673.29,
+        "total": 10099.35
+      },
+      {
+        "item_code": "OS-001",
+        "description": "Ergonomic Office Chair",
+        "quantity": 5,
+        "unit_price": 319.13,
+        "total": 1595.65
+      },
+      {
+        "item_code": "IT-002",
+        "description": "HP Desktop Workstation",
+        "quantity": 14,
+        "unit_price": 1180.25,
+        "total": 16523.5
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 3,
+    "metadata": {
+      "filename": "INV-005032_creative.pdf",
+      "file_size": 2775,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:41:50.054450",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005033",
+    "invoice_date": "2025-11-14",
+    "due_date": "2025-12-14",
+    "vendor_name": "Nordic Supplies AB",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01033",
+    "payment_terms": "Net 45",
+    "currency": "USD",
+    "total_amount": 49240.7,
+    "subtotal": 45593.24,
+    "tax": 3647.46,
+    "line_items": [
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity": 14,
+        "unit_price": 3256.66,
+        "total": 45593.24
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 1,
+    "metadata": {
+      "filename": "INV-005033_creative.pdf",
+      "file_size": 2559,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:41:55.920082",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005034",
+    "invoice_date": "2025-10-28",
+    "due_date": "2025-11-27",
+    "vendor_name": "Global Tech Solutions",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01034",
+    "payment_terms": "Net 30",
+    "currency": "USD",
+    "total_amount": 5550.0,
+    "subtotal": 5550.03,
+    "tax": 0.0,
+    "line_items": [
+      {
+        "item_code": "IN-002",
+        "description": "Steel Beam 10m I-Section",
+        "quantity": 9,
+        "unit_price": 616.67,
+        "total": 5550.03
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 1,
+    "metadata": {
+      "filename": "INV-005034_modern.pdf",
+      "file_size": 2410,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:42:01.590673",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "invoice",
+    "invoice_number": "INV-005035",
+    "invoice_date": "2025-11-07",
+    "due_date": "2025-12-07",
+    "vendor_name": "Quality Manufacturing",
+    "vendor_id": "V-1006",
+    "po_reference": "PO-2024-01035",
+    "payment_terms": null,
+    "currency": "USD",
+    "total_amount": 47277.8,
+    "subtotal": 41838.76,
+    "tax": 5439.04,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "INV-005035_classic.pdf",
+      "file_size": 3194,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:42:01.645122",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "invoice",
+    "invoice_number": "INV-005036",
+    "invoice_date": "2025-11-09",
+    "due_date": "2025-12-09",
+    "vendor_name": "Euro Parts Distributors",
+    "vendor_id": "V-1007",
+    "po_reference": "PO-2024-01036",
+    "payment_terms": null,
+    "currency": "USD",
+    "total_amount": 23363.55,
+    "subtotal": 23363.55,
+    "tax": 0.0,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "INV-005036_classic.pdf",
+      "file_size": 3291,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:42:01.677142",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005037",
+    "invoice_date": "2025-10-13",
+    "due_date": "2025-11-12",
+    "vendor_name": "Global Tech Solutions",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01037",
+    "payment_terms": "Net 30",
+    "currency": "USD",
+    "total_amount": 9528.25,
+    "subtotal": 9074.52,
+    "tax": 453.73,
+    "line_items": [
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity": 12,
+        "unit_price": 756.21,
+        "total": 9074.52
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 1,
+    "metadata": {
+      "filename": "INV-005037_creative.pdf",
+      "file_size": 2562,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:42:07.027097",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "invoice",
+    "invoice_number": "INV-005038",
+    "invoice_date": "2025-10-27",
+    "due_date": "2025-11-26",
+    "vendor_name": "Atlas Equipment Corp",
+    "vendor_id": "V-1010",
+    "po_reference": "PO-2024-01038",
+    "payment_terms": null,
+    "currency": "USD",
+    "total_amount": 16465.64,
+    "subtotal": 14571.36,
+    "tax": 1894.28,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "INV-005038_classic.pdf",
+      "file_size": 3200,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:42:07.062300",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005039",
+    "invoice_date": "2025-11-06",
+    "due_date": "2025-12-06",
+    "vendor_name": "Industrial Components Inc",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01039",
+    "payment_terms": "Net 30",
+    "currency": "USD",
+    "total_amount": 6461.3,
+    "subtotal": 6153.66,
+    "tax": 307.68,
+    "line_items": [
+      {
+        "item_code": "OS-001",
+        "description": "Ergonomic Office Chair",
+        "quantity": 17,
+        "unit_price": 361.98,
+        "total": 6153.66
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 1,
+    "metadata": {
+      "filename": "INV-005039_modern.pdf",
+      "file_size": 2422,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:42:11.987083",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "invoice",
+    "invoice_number": "INV-005040",
+    "invoice_date": "2025-10-25",
+    "due_date": "2025-11-24",
+    "vendor_name": "Industrial Components Inc",
+    "vendor_id": "V-1004",
+    "po_reference": "PO-2024-01040",
+    "payment_terms": null,
+    "currency": "USD",
+    "total_amount": 1518.88,
+    "subtotal": 1406.37,
+    "tax": 112.51,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "INV-005040_classic.pdf",
+      "file_size": 3167,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:42:12.032490",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "invoice",
+    "invoice_number": "INV-005041",
+    "invoice_date": "2025-11-25",
+    "due_date": "2025-12-25",
+    "vendor_name": "Swift Logistics Co",
+    "vendor_id": "V-1005",
+    "po_reference": "PO-2024-01041",
+    "payment_terms": null,
+    "currency": "USD",
+    "total_amount": 1919.68,
+    "subtotal": 1698.83,
+    "tax": 220.85,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "INV-005041_classic.pdf",
+      "file_size": 3165,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:42:12.063412",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005042",
+    "invoice_date": "2025-10-15",
+    "due_date": "2025-11-14",
+    "vendor_name": "Quality Manufacturing",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01042",
+    "payment_terms": "Net 30",
+    "currency": "USD",
+    "total_amount": 4167.39,
+    "subtotal": 3858.69,
+    "tax": 308.7,
+    "line_items": [
+      {
+        "item_code": "IN-004",
+        "description": "Industrial LED Lighting 100W",
+        "quantity": 9,
+        "unit_price": 81.66,
+        "total": 734.94
+      },
+      {
+        "item_code": "IN-003",
+        "description": "Safety Harness Kit",
+        "quantity": 4,
+        "unit_price": 189.85,
+        "total": 759.4
+      },
+      {
+        "item_code": "IT-004",
+        "description": "Samsung 27\" Monitor",
+        "quantity": 5,
+        "unit_price": 472.87,
+        "total": 2364.35
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 3,
+    "metadata": {
+      "filename": "INV-005042_creative.pdf",
+      "file_size": 2749,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:42:20.118506",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "invoice",
+    "invoice_number": "INV-005043",
+    "invoice_date": "2025-12-03",
+    "due_date": "2026-01-02",
+    "vendor_name": "Nordic Supplies AB",
+    "vendor_id": "V-1009",
+    "po_reference": "PO-2024-01043",
+    "payment_terms": null,
+    "currency": "USD",
+    "total_amount": 7800.71,
+    "subtotal": 7222.88,
+    "tax": 577.83,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "INV-005043_classic.pdf",
+      "file_size": 3449,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:42:20.168580",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005044",
+    "invoice_date": "2025-10-17",
+    "due_date": "2025-11-16",
+    "vendor_name": "Nordic Supplies AB",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01044",
+    "payment_terms": "Due on Receipt",
+    "currency": "USD",
+    "total_amount": 11291.53,
+    "subtotal": 10455.12,
+    "tax": 836.41,
+    "line_items": [
+      {
+        "item_code": "OS-002",
+        "description": "Standing Desk Adjustable",
+        "quantity": 15,
+        "unit_price": 572.98,
+        "total": 8594.7
+      },
+      {
+        "item_code": "OS-002",
+        "description": "Standing Desk Adjustable",
+        "quantity": 3,
+        "unit_price": 620.14,
+        "total": 1860.42
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 2,
+    "metadata": {
+      "filename": "INV-005044_creative.pdf",
+      "file_size": 2652,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:42:26.018487",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005045",
+    "invoice_date": "2025-10-14",
+    "due_date": "2025-11-13",
+    "vendor_name": "Acme Supplies Ltd",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01045",
+    "payment_terms": "Net 60",
+    "currency": "USD",
+    "total_amount": 18398.64,
+    "subtotal": 17035.78,
+    "tax": 1362.86,
+    "line_items": [
+      {
+        "item_code": "OS-001",
+        "description": "Ergonomic Office Chair",
+        "quantity": 2,
+        "unit_price": 439.77,
+        "total": 879.54
+      },
+      {
+        "item_code": "OS-002",
+        "description": "Standing Desk Adjustable",
+        "quantity": 15,
+        "unit_price": 499.06,
+        "total": 7485.9
+      },
+      {
+        "item_code": "OS-002",
+        "description": "Standing Desk Adjustable",
+        "quantity": 14,
+        "unit_price": 619.31,
+        "total": 8670.34
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 3,
+    "metadata": {
+      "filename": "INV-005045_modern.pdf",
+      "file_size": 2572,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:42:34.301953",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005046",
+    "invoice_date": "2025-11-23",
+    "due_date": "2025-12-23",
+    "vendor_name": "Industrial Components Inc",
+    "vendor_id": null,
+    "po_reference": "PO-2024-99336",
+    "payment_terms": "Net 30",
+    "currency": "USD",
+    "total_amount": 1196.91,
+    "subtotal": 1088.1,
+    "tax": 108.81,
+    "line_items": [
+      {
+        "item_code": "IT-005",
+        "description": "Logitech Wireless Keyboard & Mouse",
+        "quantity": 15,
+        "unit_price": 72.54,
+        "total": 1088.1
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 1,
+    "metadata": {
+      "filename": "INV-005046_creative.pdf",
+      "file_size": 2589,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:42:40.155245",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005047",
+    "invoice_date": "2025-11-09",
+    "due_date": "2025-12-09",
+    "vendor_name": "Atlas Equipment Corp",
+    "vendor_id": null,
+    "po_reference": "PO-2024-99106",
+    "payment_terms": "Net 30",
+    "currency": "USD",
+    "total_amount": 18784.95,
+    "subtotal": 17393.47,
+    "tax": 1391.48,
+    "line_items": [
+      {
+        "item_code": "OS-001",
+        "description": "Ergonomic Office Chair",
+        "quantity": 3,
+        "unit_price": 347.51,
+        "total": 1042.53
+      },
+      {
+        "item_code": "IT-001",
+        "description": "Dell Laptop XPS 15",
+        "quantity": 6,
+        "unit_price": 1678.7,
+        "total": 10072.2
+      },
+      {
+        "item_code": "OS-003",
+        "description": "Printer Paper A4 (5 Reams)",
+        "quantity": 6,
+        "unit_price": 29.19,
+        "total": 175.14
+      },
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity": 10,
+        "unit_price": 610.36,
+        "total": 6103.6
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 4,
+    "metadata": {
+      "filename": "INV-005047_modern.pdf",
+      "file_size": 2690,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:42:46.709387",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005048",
+    "invoice_date": "2025-12-02",
+    "due_date": "2026-01-01",
+    "vendor_name": "Acme Supplies Ltd",
+    "vendor_id": null,
+    "po_reference": "PO-2024-98041",
+    "payment_terms": "Net 30",
+    "currency": "USD",
+    "total_amount": 18786.54,
+    "subtotal": 17078.67,
+    "tax": 1707.87,
+    "line_items": [
+      {
+        "item_code": "IT-004",
+        "description": "Samsung 27\" Monitor",
+        "quantity": 9,
+        "unit_price": 451.63,
+        "total": 4064.67
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 1,
+    "metadata": {
+      "filename": "INV-005048_creative.pdf",
+      "file_size": 2670,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:42:53.577204",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005049",
+    "invoice_date": "2025-11-14",
+    "due_date": "2025-12-14",
+    "vendor_name": "Pacific Traders",
+    "vendor_id": null,
+    "po_reference": "PO-2024-95016",
+    "payment_terms": "Net 30",
+    "currency": "USD",
+    "total_amount": 5014.3,
+    "subtotal": 4775.6,
+    "tax": 238.78,
+    "line_items": [
+      {
+        "item_code": "IT-002",
+        "description": "HP Desktop Workstation",
+        "quantity": 5,
+        "unit_price": 955.12,
+        "total": 4775.6
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 1,
+    "metadata": {
+      "filename": "INV-005049_modern.pdf",
+      "file_size": 2413,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:43:01.763873",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005050",
+    "invoice_date": "2025-12-04",
+    "due_date": "2026-01-03",
+    "vendor_name": "Atlas Equipment Corp",
+    "vendor_id": null,
+    "po_reference": "PO-2024-95023",
+    "payment_terms": "Net 30",
+    "currency": "USD",
+    "total_amount": 3049.8,
+    "subtotal": 2823.96,
+    "tax": 225.92,
+    "line_items": [
+      {
+        "item_code": "OS-003",
+        "description": "Printer Paper A4 (5 Reams)",
+        "quantity": 6,
+        "unit_price": 31.38,
+        "total": 188.28
+      },
+      {
+        "item_code": "OS-004",
+        "description": "Whiteboard 6x4 ft",
+        "quantity": 12,
+        "unit_price": 155.04,
+        "total": 1860.48
+      },
+      {
+        "item_code": "IN-004",
+        "description": "Industrial LED Lighting 100W",
+        "quantity": 6,
+        "unit_price": 129.2,
+        "total": 775.2
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 3,
+    "metadata": {
+      "filename": "INV-005050_modern.pdf",
+      "file_size": 2607,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:43:06.331794",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005051",
+    "invoice_date": "2025-11-10",
+    "due_date": "2025-12-10",
+    "vendor_name": "Swift Logistics Co",
+    "vendor_id": null,
+    "po_reference": "PO-2024-93138",
+    "payment_terms": "Net 30",
+    "currency": "USD",
+    "total_amount": 12613.0,
+    "subtotal": 12012.64,
+    "tax": 600.63,
+    "line_items": [
+      {
+        "item_code": "IT-002",
+        "description": "HP Desktop Workstation",
+        "quantity": 4,
+        "unit_price": 1020.88,
+        "total": 4083.52
+      },
+      {
+        "item_code": "IN-002",
+        "description": "Steel Beam 10m I-Section",
+        "quantity": 12,
+        "unit_price": 660.76,
+        "total": 7929.12
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 2,
+    "metadata": {
+      "filename": "INV-005051_modern.pdf",
+      "file_size": 2509,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:43:11.084843",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "invoice",
+    "invoice_number": "INV-005052",
+    "invoice_date": "2025-11-04",
+    "due_date": "2025-12-04",
+    "vendor_name": "Industrial Components Inc",
+    "vendor_id": "V-1004",
+    "po_reference": "PO-2024-92073",
+    "payment_terms": null,
+    "currency": "USD",
+    "total_amount": 3901.18,
+    "subtotal": 3452.37,
+    "tax": 448.81,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "INV-005052_classic.pdf",
+      "file_size": 3412,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:43:11.137077",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005053",
+    "invoice_date": "2025-12-05",
+    "due_date": "2026-01-04",
+    "vendor_name": "Swift Logistics Co",
+    "vendor_id": null,
+    "po_reference": "PO-2024-98042",
+    "payment_terms": "Net 30",
+    "currency": "USD",
+    "total_amount": 12996.4,
+    "subtotal": 12377.52,
+    "tax": 618.88,
+    "line_items": [
+      {
+        "item_code": "IT-001",
+        "description": "Dell Laptop XPS 15",
+        "quantity": 9,
+        "unit_price": 1375.28,
+        "total": 12377.52
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 1,
+    "metadata": {
+      "filename": "INV-005053_creative.pdf",
+      "file_size": 2555,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:43:17.070637",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-005054",
+    "invoice_date": "2025-11-08",
+    "due_date": "2025-12-08",
+    "vendor_name": "Nordic Supplies AB",
+    "vendor_id": null,
+    "po_reference": "PO-2024-01006",
+    "payment_terms": "Net 45",
+    "currency": "USD",
+    "total_amount": 3262.03,
+    "subtotal": 2965.48,
+    "tax": 296.55,
+    "line_items": [
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity": 7,
+        "unit_price": 423.64,
+        "total": 2965.48
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 1,
+    "metadata": {
+      "filename": "INV-005054_creative.pdf",
+      "file_size": 2554,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:43:23.025014",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "invoice_number": "INV-TEST-4698",
+    "invoice_date": "2025-12-21",
+    "due_date": "2026-01-20",
+    "vendor_name": "Acme Technology Solutions",
+    "vendor_id": null,
+    "po_reference": null,
+    "payment_terms": "Net 30",
+    "currency": "USD",
+    "total_amount": 17553.33,
+    "subtotal": 17553.33,
+    "tax": 0.0,
+    "line_items": [
+      {
+        "item_code": null,
+        "description": "Cloud Computing Services - Q4 2024",
+        "quantity": 1,
+        "unit_price": 10532.0,
+        "total": 10532.0
+      },
+      {
+        "item_code": null,
+        "description": "Technical Support Package",
+        "quantity": 1,
+        "unit_price": 5266.0,
+        "total": 5266.0
+      },
+      {
+        "item_code": null,
+        "description": "Software Licenses",
+        "quantity": 10,
+        "unit_price": 175.53,
+        "total": 1755.33
+      }
+    ],
+    "document_type": "invoice",
+    "item_count": 3,
+    "metadata": {
+      "filename": "test_invoice_20251221_170344.pdf",
+      "file_size": 2386,
+      "layout_style": "unknown",
+      "processed_at": "2025-12-26T17:48:02.413473",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  }
+]

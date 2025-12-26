@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "total_files": 157,
+    "processed": 157,
+    "failed": 0,
+    "by_type": {
+      "grn": 45,
+      "invoice": 55,
+      "purchase_order": 57
+    },
+    "by_layout": {
+      "modern": 52,
+      "creative": 53,
+      "classic": 46,
+      "unknown": 6
+    },
+    "llm_extractions": 95,
+    "regex_extractions": 62,
+    "fixed": 0,
+    "skipped_good": 0
+  },
+  "details": {
+    "total_files": 157,
+    "successfully_processed": 157,
+    "failed": 0,
+    "success_rate": 100.0
+  },
+  "breakdown": {
+    "by_document_type": {
+      "grn": 45,
+      "invoice": 55,
+      "purchase_order": 57
+    },
+    "by_layout_style": {
+      "modern": 52,
+      "creative": 53,
+      "classic": 46,
+      "unknown": 6
+    }
+  },
+  "timestamp": "2025-12-26T17:48:09.507424"
+}

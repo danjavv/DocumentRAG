@@ -1,0 +1,2007 @@
+{
+  "total_invoices": 54,
+  "matched": [
+    {
+      "invoice_number": "INV-005001",
+      "invoice_date": "2025-10-30",
+      "po_reference": "PO-2024-01001",
+      "po_date": "2025-10-18",
+      "vendor_name": "Global Tech Solutions",
+      "invoice_total": 3010.72,
+      "po_total": 3010.72,
+      "status": "MATCH",
+      "header_issues": [],
+      "line_item_comparison": {
+        "total_items_in_invoice": 1,
+        "total_items_in_po": 1,
+        "matched_items": 1,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 0
+    },
+    {
+      "invoice_number": "INV-005020",
+      "invoice_date": "2025-11-19",
+      "po_reference": "PO-2024-01020",
+      "po_date": "2025-11-14",
+      "vendor_name": "Global Tech Solutions",
+      "invoice_total": 1039.13,
+      "po_total": 1039.13,
+      "status": "MATCH",
+      "header_issues": [],
+      "line_item_comparison": {
+        "total_items_in_invoice": 1,
+        "total_items_in_po": 1,
+        "matched_items": 1,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 0
+    },
+    {
+      "invoice_number": "INV-005021",
+      "invoice_date": "2025-11-15",
+      "po_reference": "PO-2024-01021",
+      "po_date": "2025-10-29",
+      "vendor_name": "Industrial Components Inc",
+      "invoice_total": 26735.64,
+      "po_total": 26735.64,
+      "status": "MATCH",
+      "header_issues": [],
+      "line_item_comparison": {
+        "total_items_in_invoice": 3,
+        "total_items_in_po": 3,
+        "matched_items": 3,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 0
+    }
+  ],
+  "mismatched": [
+    {
+      "invoice_number": "INV-005002",
+      "invoice_date": "2025-11-06",
+      "po_reference": "PO-2024-01002",
+      "po_date": "2025-10-31",
+      "vendor_name": "Nordic Supplies AB",
+      "invoice_total": 1224.23,
+      "po_total": 1083.39,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 140.84,
+          "po_value": 0.0,
+          "difference": 140.84,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 1224.23,
+          "po_value": 1083.39,
+          "difference": 140.83999999999992,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 1,
+        "total_items_in_po": 1,
+        "matched_items": 1,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005003",
+      "invoice_date": "2025-11-22",
+      "po_reference": "PO-2024-01003",
+      "po_date": "2025-11-14",
+      "vendor_name": "Nordic Supplies AB",
+      "invoice_total": 755.04,
+      "po_total": 775.63,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 68.64,
+          "po_value": 89.23,
+          "difference": -20.590000000000003,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 755.04,
+          "po_value": 775.63,
+          "difference": -20.590000000000032,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 1,
+        "total_items_in_po": 1,
+        "matched_items": 1,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005004",
+      "invoice_date": "2025-11-04",
+      "po_reference": "PO-2024-01004",
+      "po_date": "2025-10-16",
+      "vendor_name": "Pacific Traders",
+      "invoice_total": 12180.21,
+      "po_total": 11641.27,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 1401.26,
+          "po_value": 862.32,
+          "difference": 538.9399999999999,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 12180.21,
+          "po_value": 11641.27,
+          "difference": 538.9399999999987,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 3,
+        "total_items_in_po": 3,
+        "matched_items": 3,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005005",
+      "invoice_date": "2025-11-25",
+      "po_reference": "PO-2024-01005",
+      "po_date": "2025-11-06",
+      "vendor_name": "Euro Parts Distributors",
+      "invoice_total": 5043.26,
+      "po_total": 4820.1,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 580.2,
+          "po_value": 357.04,
+          "difference": 223.16000000000003,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 5043.26,
+          "po_value": 4820.1,
+          "difference": 223.15999999999985,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 1,
+        "total_items_in_po": 1,
+        "matched_items": 1,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005006",
+      "invoice_date": "2025-11-08",
+      "po_reference": "PO-2024-01006",
+      "po_date": "2025-10-17",
+      "vendor_name": "Nordic Supplies AB",
+      "invoice_total": 3262.03,
+      "po_total": 3202.72,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 296.55,
+          "po_value": 237.24,
+          "difference": 59.31,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 3262.03,
+          "po_value": 3202.72,
+          "difference": 59.3100000000004,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 1,
+        "total_items_in_po": 1,
+        "matched_items": 1,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005007",
+      "invoice_date": "2025-10-19",
+      "po_reference": "PO-2024-01007",
+      "po_date": "2025-09-29",
+      "vendor_name": "Quality Manufacturing",
+      "invoice_total": 15104.97,
+      "po_total": 13731.79,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 1373.18,
+          "po_value": 0.0,
+          "difference": 1373.18,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 15104.97,
+          "po_value": 13731.79,
+          "difference": 1373.1799999999985,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 2,
+        "total_items_in_po": 2,
+        "matched_items": 2,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005008",
+      "invoice_date": "2025-10-14",
+      "po_reference": "PO-2024-01008",
+      "po_date": "2025-10-02",
+      "vendor_name": "Euro Parts Distributors",
+      "invoice_total": 18749.5,
+      "po_total": 17360.65,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 1388.85,
+          "po_value": 0.0,
+          "difference": 1388.85,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 18749.5,
+          "po_value": 17360.65,
+          "difference": 1388.8499999999985,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 3,
+        "total_items_in_po": 3,
+        "matched_items": 3,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005009",
+      "invoice_date": "2025-10-16",
+      "po_reference": "PO-2024-01009",
+      "po_date": "2025-09-21",
+      "vendor_name": "Premier Office Equipment",
+      "invoice_total": 5550.15,
+      "po_total": 5973.02,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 264.29,
+          "po_value": 687.16,
+          "difference": -422.86999999999995,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 5550.15,
+          "po_value": 5973.02,
+          "difference": -422.8700000000008,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 2,
+        "total_items_in_po": 2,
+        "matched_items": 2,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005010",
+      "invoice_date": "2025-10-09",
+      "po_reference": "PO-2024-01010",
+      "po_date": "2025-09-20",
+      "vendor_name": "Acme Supplies Ltd",
+      "invoice_total": 7525.59,
+      "po_total": 8503.92,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 0.0,
+          "po_value": 978.33,
+          "difference": -978.33,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 7525.59,
+          "po_value": 8503.92,
+          "difference": -978.3299999999999,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 2,
+        "total_items_in_po": 2,
+        "matched_items": 2,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005011",
+      "invoice_date": "2025-11-16",
+      "po_reference": "PO-2024-01011",
+      "po_date": "2025-11-04",
+      "vendor_name": "Industrial Components Inc",
+      "invoice_total": 45986.99,
+      "po_total": 46838.6,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 3406.44,
+          "po_value": 4258.05,
+          "difference": -851.6100000000001,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 45986.99,
+          "po_value": 46838.6,
+          "difference": -851.6100000000006,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 4,
+        "total_items_in_po": 4,
+        "matched_items": 4,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005012",
+      "invoice_date": "2025-10-28",
+      "po_reference": "PO-2024-01012",
+      "po_date": "2025-10-13",
+      "vendor_name": "Premier Office Equipment",
+      "invoice_total": 25972.9,
+      "po_total": 25283.36,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 2988.03,
+          "po_value": 2298.49,
+          "difference": 689.5400000000004,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 25972.9,
+          "po_value": 25283.36,
+          "difference": 689.5400000000009,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 4,
+        "total_items_in_po": 4,
+        "matched_items": 4,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005013",
+      "invoice_date": "2025-10-31",
+      "po_reference": "PO-2024-01013",
+      "po_date": "2025-10-22",
+      "vendor_name": "Nordic Supplies AB",
+      "invoice_total": 27365.06,
+      "po_total": 29450.01,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 1303.1,
+          "po_value": 3388.05,
+          "difference": -2084.9500000000003,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 27365.06,
+          "po_value": 29450.01,
+          "difference": -2084.949999999997,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 1,
+        "total_items_in_po": 1,
+        "matched_items": 1,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005014",
+      "invoice_date": "2025-11-27",
+      "po_reference": "PO-2024-01014",
+      "po_date": "2025-11-10",
+      "vendor_name": "Quality Manufacturing",
+      "invoice_total": 425.64,
+      "po_total": 405.37,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 20.27,
+          "po_value": 0.0,
+          "difference": 20.27,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 425.64,
+          "po_value": 405.37,
+          "difference": 20.269999999999982,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 1,
+        "total_items_in_po": 1,
+        "matched_items": 1,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005015",
+      "invoice_date": "2025-11-16",
+      "po_reference": "PO-2024-01015",
+      "po_date": "2025-11-09",
+      "vendor_name": "Nordic Supplies AB",
+      "invoice_total": 21710.77,
+      "po_total": 22302.88,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 1973.71,
+          "po_value": 2565.82,
+          "difference": -592.1100000000001,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 21710.77,
+          "po_value": 22302.88,
+          "difference": -592.1100000000006,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 2,
+        "total_items_in_po": 2,
+        "matched_items": 2,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005016",
+      "invoice_date": "2025-10-13",
+      "po_reference": "PO-2024-01016",
+      "po_date": "2025-09-28",
+      "vendor_name": "Quality Manufacturing",
+      "invoice_total": 2831.2,
+      "po_total": 2756.04,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 325.71,
+          "po_value": 250.55,
+          "difference": 75.15999999999997,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 2831.2,
+          "po_value": 2756.04,
+          "difference": 75.15999999999985,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 2,
+        "total_items_in_po": 2,
+        "matched_items": 2,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005017",
+      "invoice_date": "2025-10-21",
+      "po_reference": "PO-2024-01017",
+      "po_date": "2025-10-03",
+      "vendor_name": "Quality Manufacturing",
+      "invoice_total": 13863.31,
+      "po_total": 15665.54,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 0.0,
+          "po_value": 1802.23,
+          "difference": -1802.23,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 13863.31,
+          "po_value": 15665.54,
+          "difference": -1802.2300000000014,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 3,
+        "total_items_in_po": 3,
+        "matched_items": 3,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005018",
+      "invoice_date": "2025-11-10",
+      "po_reference": "PO-2024-01018",
+      "po_date": "2025-10-23",
+      "vendor_name": "Pacific Traders",
+      "invoice_total": 2085.8,
+      "po_total": 1990.99,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 189.62,
+          "po_value": 94.81,
+          "difference": 94.81,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 2085.8,
+          "po_value": 1990.99,
+          "difference": 94.81000000000017,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 2,
+        "total_items_in_po": 2,
+        "matched_items": 2,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005019",
+      "invoice_date": "2025-12-08",
+      "po_reference": "PO-2024-01019",
+      "po_date": "2025-11-15",
+      "vendor_name": "Euro Parts Distributors",
+      "invoice_total": 6585.55,
+      "po_total": 6765.15,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 598.69,
+          "po_value": 778.29,
+          "difference": -179.5999999999999,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 6585.55,
+          "po_value": 6765.15,
+          "difference": -179.59999999999945,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 3,
+        "total_items_in_po": 3,
+        "matched_items": 3,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005022",
+      "invoice_date": "2025-12-06",
+      "po_reference": "PO-2024-01022",
+      "po_date": "2025-11-16",
+      "vendor_name": "Global Tech Solutions",
+      "invoice_total": 18606.16,
+      "po_total": 19492.17,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 886.01,
+          "po_value": 1772.02,
+          "difference": -886.01,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 18606.16,
+          "po_value": 19492.17,
+          "difference": -886.0099999999984,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 1,
+        "total_items_in_po": 1,
+        "matched_items": 1,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005023",
+      "invoice_date": "2025-10-14",
+      "po_reference": "PO-2024-01023",
+      "po_date": "2025-09-26",
+      "vendor_name": "Global Tech Solutions",
+      "invoice_total": 6623.63,
+      "po_total": 6021.48,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 602.15,
+          "po_value": 0.0,
+          "difference": 602.15,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 6623.63,
+          "po_value": 6021.48,
+          "difference": 602.1500000000005,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 1,
+        "total_items_in_po": 1,
+        "matched_items": 1,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005024",
+      "invoice_date": "2025-10-16",
+      "po_reference": "PO-2024-01024",
+      "po_date": "2025-09-29",
+      "vendor_name": "Industrial Components Inc",
+      "invoice_total": 22455.49,
+      "po_total": 23495.1,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 1663.37,
+          "po_value": 2702.98,
+          "difference": -1039.6100000000001,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 22455.49,
+          "po_value": 23495.1,
+          "difference": -1039.609999999997,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 4,
+        "total_items_in_po": 4,
+        "matched_items": 4,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005025",
+      "invoice_date": "2025-11-14",
+      "po_reference": "PO-2024-01025",
+      "po_date": "2025-11-04",
+      "vendor_name": "Industrial Components Inc",
+      "invoice_total": 4381.01,
+      "po_total": 4181.88,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 398.27,
+          "po_value": 199.14,
+          "difference": 199.13,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 4381.01,
+          "po_value": 4181.88,
+          "difference": 199.1300000000001,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 2,
+        "total_items_in_po": 2,
+        "matched_items": 2,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005026",
+      "invoice_date": "2025-11-06",
+      "po_reference": "PO-2024-01026",
+      "po_date": "2025-10-13",
+      "vendor_name": "Euro Parts Distributors",
+      "invoice_total": 9468.29,
+      "po_total": 9216.92,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 1089.27,
+          "po_value": 837.9,
+          "difference": 251.37,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 9468.29,
+          "po_value": 9216.92,
+          "difference": 251.3700000000008,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 3,
+        "total_items_in_po": 3,
+        "matched_items": 3,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005027",
+      "invoice_date": "2025-10-13",
+      "po_reference": "PO-2024-01027",
+      "po_date": "2025-09-26",
+      "vendor_name": "Swift Logistics Co",
+      "invoice_total": 23355.2,
+      "po_total": 20668.32,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 2686.88,
+          "po_value": 0.0,
+          "difference": 2686.88,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 23355.2,
+          "po_value": 20668.32,
+          "difference": 2686.880000000001,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 2,
+        "total_items_in_po": 2,
+        "matched_items": 2,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005028",
+      "invoice_date": "2025-10-30",
+      "po_reference": "PO-2024-01028",
+      "po_date": "2025-10-23",
+      "vendor_name": "Nordic Supplies AB",
+      "invoice_total": 4114.68,
+      "po_total": 3927.65,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 374.06,
+          "po_value": 187.03,
+          "difference": 187.03,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 4114.68,
+          "po_value": 3927.65,
+          "difference": 187.0300000000002,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 2,
+        "total_items_in_po": 2,
+        "matched_items": 2,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005029",
+      "invoice_date": "2025-11-20",
+      "po_reference": "PO-2024-01029",
+      "po_date": "2025-11-01",
+      "vendor_name": "Atlas Equipment Corp",
+      "invoice_total": 4644.55,
+      "po_total": 4998.42,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 221.17,
+          "po_value": 575.04,
+          "difference": -353.87,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 4644.55,
+          "po_value": 4998.42,
+          "difference": -353.8699999999999,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 2,
+        "total_items_in_po": 2,
+        "matched_items": 2,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005030",
+      "invoice_date": "2025-10-29",
+      "po_reference": "PO-2024-01030",
+      "po_date": "2025-10-16",
+      "vendor_name": "Swift Logistics Co",
+      "invoice_total": 19715.3,
+      "po_total": 19356.84,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 1792.3,
+          "po_value": 1433.84,
+          "difference": 358.46000000000004,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 19715.3,
+          "po_value": 19356.84,
+          "difference": 358.4599999999991,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 2,
+        "total_items_in_po": 2,
+        "matched_items": 2,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    },
+    {
+      "invoice_number": "INV-005031",
+      "invoice_date": "2025-10-17",
+      "po_reference": "PO-2024-01031",
+      "po_date": "2025-10-06",
+      "vendor_name": "Global Tech Solutions",
+      "invoice_total": 476.19,
+      "po_total": 399.8,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "subtotal",
+          "invoice_value": 432.9,
+          "po_value": 399.8,
+          "difference": 33.099999999999966,
+          "severity": "HIGH"
+        },
+        {
+          "field": "tax",
+          "invoice_value": 43.29,
+          "po_value": 0.0,
+          "difference": 43.29,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 476.19,
+          "po_value": 399.8,
+          "difference": 76.38999999999999,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 1,
+        "total_items_in_po": 1,
+        "matched_items": 0,
+        "mismatches": [
+          {
+            "type": "ITEM_MISMATCH",
+            "item_code": "OS-003",
+            "description": "Printer Paper A4 (5 Reams)",
+            "issues": [
+              {
+                "field": "unit_price",
+                "invoice_value": 43.29,
+                "po_value": 39.98,
+                "difference": 3.3100000000000023
+              },
+              {
+                "field": "total",
+                "invoice_value": 432.9,
+                "po_value": 399.8,
+                "difference": 33.099999999999966
+              }
+            ]
+          }
+        ],
+        "has_line_item_issues": true
+      },
+      "total_issues": 4
+    },
+    {
+      "invoice_number": "INV-005032",
+      "invoice_date": "2025-11-11",
+      "po_reference": "PO-2024-01032",
+      "po_date": "2025-10-24",
+      "vendor_name": "Industrial Components Inc",
+      "invoice_total": 31040.35,
+      "po_total": 30273.05,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "subtotal",
+          "invoice_value": 28218.5,
+          "po_value": 28030.6,
+          "difference": 187.90000000000146,
+          "severity": "HIGH"
+        },
+        {
+          "field": "tax",
+          "invoice_value": 2821.85,
+          "po_value": 2242.45,
+          "difference": 579.4000000000001,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 31040.35,
+          "po_value": 30273.05,
+          "difference": 767.2999999999993,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 3,
+        "total_items_in_po": 3,
+        "matched_items": 2,
+        "mismatches": [
+          {
+            "type": "ITEM_MISMATCH",
+            "item_code": "OS-001",
+            "description": "Ergonomic Office Chair",
+            "issues": [
+              {
+                "field": "unit_price",
+                "invoice_value": 319.13,
+                "po_value": 281.55,
+                "difference": 37.579999999999984
+              },
+              {
+                "field": "total",
+                "invoice_value": 1595.65,
+                "po_value": 1407.75,
+                "difference": 187.9000000000001
+              }
+            ]
+          }
+        ],
+        "has_line_item_issues": true
+      },
+      "total_issues": 4
+    },
+    {
+      "invoice_number": "INV-005033",
+      "invoice_date": "2025-11-14",
+      "po_reference": "PO-2024-01033",
+      "po_date": "2025-10-23",
+      "vendor_name": "Nordic Supplies AB",
+      "invoice_total": 49240.7,
+      "po_total": 39646.6,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "subtotal",
+          "invoice_value": 45593.24,
+          "po_value": 39646.6,
+          "difference": 5946.639999999999,
+          "severity": "HIGH"
+        },
+        {
+          "field": "tax",
+          "invoice_value": 3647.46,
+          "po_value": 0.0,
+          "difference": 3647.46,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 49240.7,
+          "po_value": 39646.6,
+          "difference": 9594.099999999999,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 1,
+        "total_items_in_po": 1,
+        "matched_items": 0,
+        "mismatches": [
+          {
+            "type": "ITEM_MISMATCH",
+            "item_code": "IN-001",
+            "description": "Hydraulic Pump Assembly",
+            "issues": [
+              {
+                "field": "unit_price",
+                "invoice_value": 3256.66,
+                "po_value": 2831.9,
+                "difference": 424.75999999999976
+              },
+              {
+                "field": "total",
+                "invoice_value": 45593.24,
+                "po_value": 39646.6,
+                "difference": 5946.639999999999
+              }
+            ]
+          }
+        ],
+        "has_line_item_issues": true
+      },
+      "total_issues": 4
+    },
+    {
+      "invoice_number": "INV-005034",
+      "invoice_date": "2025-10-28",
+      "po_reference": "PO-2024-01034",
+      "po_date": "2025-10-03",
+      "vendor_name": "Global Tech Solutions",
+      "invoice_total": 5550.03,
+      "po_total": 5313.24,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "subtotal",
+          "invoice_value": 5550.03,
+          "po_value": 4919.67,
+          "difference": 630.3599999999997,
+          "severity": "HIGH"
+        },
+        {
+          "field": "tax",
+          "invoice_value": 0.0,
+          "po_value": 393.57,
+          "difference": -393.57,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 5550.03,
+          "po_value": 5313.24,
+          "difference": 236.78999999999996,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 1,
+        "total_items_in_po": 1,
+        "matched_items": 0,
+        "mismatches": [
+          {
+            "type": "ITEM_MISMATCH",
+            "item_code": "IN-002",
+            "description": "Steel Beam 10m I-Section",
+            "issues": [
+              {
+                "field": "unit_price",
+                "invoice_value": 616.67,
+                "po_value": 546.63,
+                "difference": 70.03999999999996
+              },
+              {
+                "field": "total",
+                "invoice_value": 5550.03,
+                "po_value": 4919.67,
+                "difference": 630.3599999999997
+              }
+            ]
+          }
+        ],
+        "has_line_item_issues": true
+      },
+      "total_issues": 4
+    },
+    {
+      "invoice_number": "INV-005035",
+      "invoice_date": "2025-11-07",
+      "po_reference": "PO-2024-01035",
+      "po_date": "2025-10-26",
+      "vendor_name": "Quality Manufacturing",
+      "invoice_total": 47277.8,
+      "po_total": 37346.44,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "subtotal",
+          "invoice_value": 41838.76,
+          "po_value": 37346.44,
+          "difference": 4492.32,
+          "severity": "HIGH"
+        },
+        {
+          "field": "tax",
+          "invoice_value": 5439.04,
+          "po_value": 0.0,
+          "difference": 5439.04,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 47277.8,
+          "po_value": 37346.44,
+          "difference": 9931.36,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 2,
+        "total_items_in_po": 2,
+        "matched_items": 1,
+        "mismatches": [
+          {
+            "type": "ITEM_MISMATCH",
+            "item_code": "IN-001",
+            "description": "Hydraulic Pump Assembly",
+            "issues": [
+              {
+                "field": "unit_price",
+                "invoice_value": 2716.86,
+                "po_value": 2395.98,
+                "difference": 320.8800000000001
+              },
+              {
+                "field": "total",
+                "invoice_value": 38036.04,
+                "po_value": 33543.72,
+                "difference": 4492.32
+              }
+            ]
+          }
+        ],
+        "has_line_item_issues": true
+      },
+      "total_issues": 4
+    },
+    {
+      "invoice_number": "INV-005036",
+      "invoice_date": "2025-11-09",
+      "po_reference": "PO-2024-01036",
+      "po_date": "2025-10-28",
+      "vendor_name": "Euro Parts Distributors",
+      "invoice_total": 23363.55,
+      "po_total": 23919.98,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "subtotal",
+          "invoice_value": 23363.55,
+          "po_value": 21745.44,
+          "difference": 1618.1100000000006,
+          "severity": "HIGH"
+        },
+        {
+          "field": "tax",
+          "invoice_value": 0.0,
+          "po_value": 2174.54,
+          "difference": -2174.54,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 23363.55,
+          "po_value": 23919.98,
+          "difference": -556.4300000000003,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 3,
+        "total_items_in_po": 3,
+        "matched_items": 2,
+        "mismatches": [
+          {
+            "type": "ITEM_MISMATCH",
+            "item_code": "IT-001",
+            "description": "Dell Laptop XPS 15",
+            "issues": [
+              {
+                "field": "unit_price",
+                "invoice_value": 1402.96,
+                "po_value": 1278.49,
+                "difference": 124.47000000000003
+              },
+              {
+                "field": "total",
+                "invoice_value": 18238.48,
+                "po_value": 16620.37,
+                "difference": 1618.1100000000006
+              }
+            ]
+          }
+        ],
+        "has_line_item_issues": true
+      },
+      "total_issues": 4
+    },
+    {
+      "invoice_number": "INV-005037",
+      "invoice_date": "2025-10-13",
+      "po_reference": "PO-2024-01037",
+      "po_date": "2025-09-24",
+      "vendor_name": "Global Tech Solutions",
+      "invoice_total": 9528.25,
+      "po_total": 9101.2,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "subtotal",
+          "invoice_value": 9074.52,
+          "po_value": 8054.16,
+          "difference": 1020.3600000000006,
+          "severity": "HIGH"
+        },
+        {
+          "field": "tax",
+          "invoice_value": 453.73,
+          "po_value": 1047.04,
+          "difference": -593.31,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 9528.25,
+          "po_value": 9101.2,
+          "difference": 427.0499999999993,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 1,
+        "total_items_in_po": 1,
+        "matched_items": 0,
+        "mismatches": [
+          {
+            "type": "ITEM_MISMATCH",
+            "item_code": "IN-005",
+            "description": "Air Compressor 50L",
+            "issues": [
+              {
+                "field": "unit_price",
+                "invoice_value": 756.21,
+                "po_value": 671.18,
+                "difference": 85.03000000000009
+              },
+              {
+                "field": "total",
+                "invoice_value": 9074.52,
+                "po_value": 8054.16,
+                "difference": 1020.3600000000006
+              }
+            ]
+          }
+        ],
+        "has_line_item_issues": true
+      },
+      "total_issues": 4
+    },
+    {
+      "invoice_number": "INV-005038",
+      "invoice_date": "2025-10-27",
+      "po_reference": "PO-2024-01038",
+      "po_date": "2025-10-17",
+      "vendor_name": "Atlas Equipment Corp",
+      "invoice_total": 16465.64,
+      "po_total": 13691.43,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "subtotal",
+          "invoice_value": 14571.359999999999,
+          "po_value": 13691.43,
+          "difference": 879.9299999999985,
+          "severity": "HIGH"
+        },
+        {
+          "field": "tax",
+          "invoice_value": 1894.28,
+          "po_value": 0.0,
+          "difference": 1894.28,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 16465.64,
+          "po_value": 13691.43,
+          "difference": 2774.209999999999,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 2,
+        "total_items_in_po": 2,
+        "matched_items": 1,
+        "mismatches": [
+          {
+            "type": "ITEM_MISMATCH",
+            "item_code": "IT-003",
+            "description": "Cisco Network Switch 24-Port",
+            "issues": [
+              {
+                "field": "quantity",
+                "invoice_value": 16,
+                "po_value": 15,
+                "difference": 1
+              },
+              {
+                "field": "total",
+                "invoice_value": 14078.88,
+                "po_value": 13198.95,
+                "difference": 879.9299999999985
+              }
+            ]
+          }
+        ],
+        "has_line_item_issues": true
+      },
+      "total_issues": 4
+    },
+    {
+      "invoice_number": "INV-005039",
+      "invoice_date": "2025-11-06",
+      "po_reference": "PO-2024-01039",
+      "po_date": "2025-10-23",
+      "vendor_name": "Industrial Components Inc",
+      "invoice_total": 6461.34,
+      "po_total": 5176.31,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "subtotal",
+          "invoice_value": 6153.66,
+          "po_value": 4705.74,
+          "difference": 1447.92,
+          "severity": "HIGH"
+        },
+        {
+          "field": "tax",
+          "invoice_value": 307.68,
+          "po_value": 470.57,
+          "difference": -162.89,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 6461.34,
+          "po_value": 5176.31,
+          "difference": 1285.0299999999997,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 1,
+        "total_items_in_po": 1,
+        "matched_items": 0,
+        "mismatches": [
+          {
+            "type": "ITEM_MISMATCH",
+            "item_code": "OS-001",
+            "description": "Ergonomic Office Chair",
+            "issues": [
+              {
+                "field": "quantity",
+                "invoice_value": 17,
+                "po_value": 13,
+                "difference": 4
+              },
+              {
+                "field": "total",
+                "invoice_value": 6153.66,
+                "po_value": 4705.74,
+                "difference": 1447.92
+              }
+            ]
+          }
+        ],
+        "has_line_item_issues": true
+      },
+      "total_issues": 4
+    },
+    {
+      "invoice_number": "INV-005040",
+      "invoice_date": "2025-10-25",
+      "po_reference": "PO-2024-01040",
+      "po_date": "2025-10-02",
+      "vendor_name": "Industrial Components Inc",
+      "invoice_total": 1518.88,
+      "po_total": 1261.69,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "subtotal",
+          "invoice_value": 1406.37,
+          "po_value": 1168.23,
+          "difference": 238.13999999999987,
+          "severity": "HIGH"
+        },
+        {
+          "field": "tax",
+          "invoice_value": 112.51,
+          "po_value": 93.46,
+          "difference": 19.05000000000001,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 1518.88,
+          "po_value": 1261.69,
+          "difference": 257.19000000000005,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 2,
+        "total_items_in_po": 2,
+        "matched_items": 1,
+        "mismatches": [
+          {
+            "type": "ITEM_MISMATCH",
+            "item_code": "IN-003",
+            "description": "Safety Harness Kit",
+            "issues": [
+              {
+                "field": "quantity",
+                "invoice_value": 4,
+                "po_value": 3,
+                "difference": 1
+              },
+              {
+                "field": "total",
+                "invoice_value": 952.56,
+                "po_value": 714.42,
+                "difference": 238.14
+              }
+            ]
+          }
+        ],
+        "has_line_item_issues": true
+      },
+      "total_issues": 4
+    },
+    {
+      "invoice_number": "INV-005041",
+      "invoice_date": "2025-11-25",
+      "po_reference": "PO-2024-01041",
+      "po_date": "2025-11-02",
+      "vendor_name": "Swift Logistics Co",
+      "invoice_total": 1919.68,
+      "po_total": 1190.78,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "subtotal",
+          "invoice_value": 1698.83,
+          "po_value": 1134.08,
+          "difference": 564.75,
+          "severity": "HIGH"
+        },
+        {
+          "field": "tax",
+          "invoice_value": 220.85,
+          "po_value": 56.7,
+          "difference": 164.14999999999998,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 1919.68,
+          "po_value": 1190.78,
+          "difference": 728.9000000000001,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 2,
+        "total_items_in_po": 2,
+        "matched_items": 1,
+        "mismatches": [
+          {
+            "type": "ITEM_MISMATCH",
+            "item_code": "IN-003",
+            "description": "Safety Harness Kit",
+            "issues": [
+              {
+                "field": "quantity",
+                "invoice_value": 5,
+                "po_value": 2,
+                "difference": 3
+              },
+              {
+                "field": "total",
+                "invoice_value": 941.25,
+                "po_value": 376.5,
+                "difference": 564.75
+              }
+            ]
+          }
+        ],
+        "has_line_item_issues": true
+      },
+      "total_issues": 4
+    },
+    {
+      "invoice_number": "INV-005042",
+      "invoice_date": "2025-10-15",
+      "po_reference": "PO-2024-01042",
+      "po_date": "2025-09-29",
+      "vendor_name": "Quality Manufacturing",
+      "invoice_total": 4167.39,
+      "po_total": 3726.42,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "subtotal",
+          "invoice_value": 3858.69,
+          "po_value": 3450.39,
+          "difference": 408.3000000000002,
+          "severity": "HIGH"
+        },
+        {
+          "field": "tax",
+          "invoice_value": 308.7,
+          "po_value": 276.03,
+          "difference": 32.670000000000016,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 4167.39,
+          "po_value": 3726.42,
+          "difference": 440.97000000000025,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 3,
+        "total_items_in_po": 3,
+        "matched_items": 2,
+        "mismatches": [
+          {
+            "type": "ITEM_MISMATCH",
+            "item_code": "IN-004",
+            "description": "Industrial LED Lighting 100W",
+            "issues": [
+              {
+                "field": "quantity",
+                "invoice_value": 9,
+                "po_value": 4,
+                "difference": 5
+              },
+              {
+                "field": "total",
+                "invoice_value": 734.94,
+                "po_value": 326.64,
+                "difference": 408.30000000000007
+              }
+            ]
+          }
+        ],
+        "has_line_item_issues": true
+      },
+      "total_issues": 4
+    },
+    {
+      "invoice_number": "INV-005043",
+      "invoice_date": "2025-12-03",
+      "po_reference": "PO-2024-01043",
+      "po_date": "2025-11-15",
+      "vendor_name": "Nordic Supplies AB",
+      "invoice_total": 7800.71,
+      "po_total": 7045.66,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "subtotal",
+          "invoice_value": 7222.88,
+          "po_value": 6523.76,
+          "difference": 699.1199999999999,
+          "severity": "HIGH"
+        },
+        {
+          "field": "tax",
+          "invoice_value": 577.83,
+          "po_value": 521.9,
+          "difference": 55.930000000000064,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 7800.71,
+          "po_value": 7045.66,
+          "difference": 755.0500000000002,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 5,
+        "total_items_in_po": 4,
+        "matched_items": 4,
+        "mismatches": [
+          {
+            "type": "ITEM_MISMATCH",
+            "item_code": "IN-004",
+            "description": "Industrial LED Lighting 100W",
+            "issues": [
+              {
+                "field": "quantity",
+                "invoice_value": 8,
+                "po_value": 5,
+                "difference": 3
+              },
+              {
+                "field": "unit_price",
+                "invoice_value": 87.39,
+                "po_value": 92.5,
+                "difference": -5.109999999999999
+              },
+              {
+                "field": "total",
+                "invoice_value": 699.12,
+                "po_value": 462.5,
+                "difference": 236.62
+              }
+            ]
+          }
+        ],
+        "has_line_item_issues": true
+      },
+      "total_issues": 4
+    },
+    {
+      "invoice_number": "INV-005044",
+      "invoice_date": "2025-10-17",
+      "po_reference": "PO-2024-01044",
+      "po_date": "2025-10-08",
+      "vendor_name": "Nordic Supplies AB",
+      "invoice_total": 11291.53,
+      "po_total": 9282.28,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "subtotal",
+          "invoice_value": 10455.12,
+          "po_value": 8594.7,
+          "difference": 1860.42,
+          "severity": "HIGH"
+        },
+        {
+          "field": "tax",
+          "invoice_value": 836.41,
+          "po_value": 687.58,
+          "difference": 148.82999999999993,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 11291.53,
+          "po_value": 9282.28,
+          "difference": 2009.25,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 2,
+        "total_items_in_po": 1,
+        "matched_items": 1,
+        "mismatches": [
+          {
+            "type": "ITEM_MISMATCH",
+            "item_code": "OS-002",
+            "description": "Standing Desk Adjustable",
+            "issues": [
+              {
+                "field": "quantity",
+                "invoice_value": 3,
+                "po_value": 15,
+                "difference": -12
+              },
+              {
+                "field": "unit_price",
+                "invoice_value": 620.14,
+                "po_value": 572.98,
+                "difference": 47.15999999999997
+              },
+              {
+                "field": "total",
+                "invoice_value": 1860.42,
+                "po_value": 8594.7,
+                "difference": -6734.280000000001
+              }
+            ]
+          }
+        ],
+        "has_line_item_issues": true
+      },
+      "total_issues": 4
+    },
+    {
+      "invoice_number": "INV-005045",
+      "invoice_date": "2025-10-14",
+      "po_reference": "PO-2024-01045",
+      "po_date": "2025-09-25",
+      "vendor_name": "Acme Supplies Ltd",
+      "invoice_total": 18398.64,
+      "po_total": 9034.68,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "subtotal",
+          "invoice_value": 17035.78,
+          "po_value": 8365.439999999999,
+          "difference": 8670.34,
+          "severity": "HIGH"
+        },
+        {
+          "field": "tax",
+          "invoice_value": 1362.86,
+          "po_value": 669.24,
+          "difference": 693.6199999999999,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 18398.64,
+          "po_value": 9034.68,
+          "difference": 9363.96,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 3,
+        "total_items_in_po": 2,
+        "matched_items": 2,
+        "mismatches": [
+          {
+            "type": "ITEM_MISMATCH",
+            "item_code": "OS-002",
+            "description": "Standing Desk Adjustable",
+            "issues": [
+              {
+                "field": "quantity",
+                "invoice_value": 14,
+                "po_value": 15,
+                "difference": -1
+              },
+              {
+                "field": "unit_price",
+                "invoice_value": 619.31,
+                "po_value": 499.06,
+                "difference": 120.24999999999994
+              },
+              {
+                "field": "total",
+                "invoice_value": 8670.34,
+                "po_value": 7485.9,
+                "difference": 1184.4400000000005
+              }
+            ]
+          }
+        ],
+        "has_line_item_issues": true
+      },
+      "total_issues": 4
+    },
+    {
+      "invoice_number": "INV-005054",
+      "invoice_date": "2025-11-08",
+      "po_reference": "PO-2024-01006",
+      "po_date": "2025-10-17",
+      "vendor_name": "Nordic Supplies AB",
+      "invoice_total": 3262.03,
+      "po_total": 3202.72,
+      "status": "MISMATCH",
+      "header_issues": [
+        {
+          "field": "tax",
+          "invoice_value": 296.55,
+          "po_value": 237.24,
+          "difference": 59.31,
+          "severity": "MEDIUM"
+        },
+        {
+          "field": "total_amount",
+          "invoice_value": 3262.03,
+          "po_value": 3202.72,
+          "difference": 59.3100000000004,
+          "severity": "HIGH"
+        }
+      ],
+      "line_item_comparison": {
+        "total_items_in_invoice": 1,
+        "total_items_in_po": 1,
+        "matched_items": 1,
+        "mismatches": [],
+        "has_line_item_issues": false
+      },
+      "total_issues": 2
+    }
+  ],
+  "errors": [
+    {
+      "invoice_number": "INV-005046",
+      "po_reference": "PO-2024-99336",
+      "status": "ERROR",
+      "error": "Referenced PO PO-2024-99336 not found"
+    },
+    {
+      "invoice_number": "INV-005047",
+      "po_reference": "PO-2024-99106",
+      "status": "ERROR",
+      "error": "Referenced PO PO-2024-99106 not found"
+    },
+    {
+      "invoice_number": "INV-005048",
+      "po_reference": "PO-2024-98041",
+      "status": "ERROR",
+      "error": "Referenced PO PO-2024-98041 not found"
+    },
+    {
+      "invoice_number": "INV-005049",
+      "po_reference": "PO-2024-95016",
+      "status": "ERROR",
+      "error": "Referenced PO PO-2024-95016 not found"
+    },
+    {
+      "invoice_number": "INV-005050",
+      "po_reference": "PO-2024-95023",
+      "status": "ERROR",
+      "error": "Referenced PO PO-2024-95023 not found"
+    },
+    {
+      "invoice_number": "INV-005051",
+      "po_reference": "PO-2024-93138",
+      "status": "ERROR",
+      "error": "Referenced PO PO-2024-93138 not found"
+    },
+    {
+      "invoice_number": "INV-005052",
+      "po_reference": "PO-2024-92073",
+      "status": "ERROR",
+      "error": "Referenced PO PO-2024-92073 not found"
+    },
+    {
+      "invoice_number": "INV-005053",
+      "po_reference": "PO-2024-98042",
+      "status": "ERROR",
+      "error": "Referenced PO PO-2024-98042 not found"
+    }
+  ],
+  "summary": {
+    "total_matched": 3,
+    "total_mismatched": 43,
+    "total_errors": 8,
+    "total_amount_variance": 57364.14999999999,
+    "high_severity_issues": 58,
+    "medium_severity_issues": 43
+  }
+}

@@ -27,6 +27,7 @@ from config import config
 # Import RAG system and file watcher
 from rag_system import RAGSystem, DocumentLoader
 from pdf_watcher import PDFAutoIngestion, start_watcher
+from invoice_po_matcher import InvoicePOMatcher
 
 # Configuration from environment
 PDF_WATCH_DIR = config.PDF_DIR
@@ -55,6 +56,7 @@ app.add_middleware(GZipMiddleware, minimum_size=1000)
 rag_system: Optional[RAGSystem] = None
 auto_ingestion: Optional[PDFAutoIngestion] = None
 watcher_thread: Optional[threading.Thread] = None
+invoice_matcher: Optional[InvoicePOMatcher] = None
 
 
 # Request/Response Models
@@ -123,7 +125,7 @@ def on_new_pdf_callback(pdf_path: str):
 @app.on_event("startup")
 async def startup_event():
     """Initialize RAG system and file watcher on startup"""
-    global rag_system, auto_ingestion, watcher_thread
+    global rag_system, auto_ingestion, watcher_thread, invoice_matcher
 
     print("\n" + "="*80)
     print("Starting Procurement RAG API Server")
@@ -139,6 +141,15 @@ async def startup_event():
         rag_system.initialize()
 
         print("\n RAG System Ready!")
+
+        # Initialize Invoice-PO Matcher
+        print("\n Initializing Invoice-PO Matcher...")
+        try:
+            invoice_matcher = InvoicePOMatcher()
+            print(f" Invoice-PO Matcher Ready!")
+        except Exception as e:
+            print(f" Warning: Could not initialize Invoice-PO Matcher: {e}")
+            print(" Mismatch detection will be unavailable.")
 
         # Initialize auto-ingestion with callback
         print("\n Initializing PDF Auto-Ingestion...")
@@ -253,6 +264,35 @@ async def get_watcher_status():
     }
 
 
+def is_mismatch_query(question: str) -> bool:
+    """Detect if the query is about invoice-PO matching/mismatching"""
+    question_lower = question.lower()
+
+    # Match/mismatch-related keywords
+    match_keywords = [
+        'mismatch', 'mismatched',
+        'discrepan', 'difference', 'differ',
+        'not match', 'doesn\'t match', 'don\'t match',
+        'incorrect', 'wrong',
+        'variance', 'vary',
+        'invoice.*(?:vs|versus|compared to).*po',
+        'po.*(?:vs|versus|compared to).*invoice',
+        'invoice.*not.*purchase order',
+        'purchase order.*not.*invoice',
+        'match.*invoice.*po', 'match.*po.*invoice',
+        'invoice.*match.*purchase order',
+        'purchase order.*match.*invoice',
+        'accurately match', 'exact match'
+    ]
+
+    import re
+    for keyword in match_keywords:
+        if re.search(keyword, question_lower):
+            return True
+
+    return False
+
+
 def parse_query_filters(question: str, request: QueryRequest):
     """Extract filters from natural language query"""
     import re
@@ -299,6 +339,123 @@ def parse_query_filters(question: str, request: QueryRequest):
     return vendor, min_amount, max_amount, n_results
 
 
+def handle_mismatch_query(question: str, vendor_filter: Optional[str] = None) -> Dict[str, Any]:
+    """Handle queries about invoice-PO matching/mismatching"""
+    if invoice_matcher is None:
+        raise HTTPException(status_code=503, detail="Invoice-PO matcher not initialized")
+
+    # Detect if user is asking for matched or mismatched invoices
+    import re
+    question_lower = question.lower()
+    show_matched = bool(re.search(r'\b(matched|match|accurately match|exact match|correct)\b', question_lower) and
+                       not re.search(r'\b(mismatch|not match|don\'t match|doesn\'t match)\b', question_lower))
+
+    # Get all results
+    all_results = invoice_matcher.find_all_mismatches()
+
+    # Choose which set to show
+    if show_matched:
+        target_list = all_results['matched']
+        target_type = "matched"
+    else:
+        target_list = all_results['mismatched']
+        target_type = "mismatched"
+
+    # Apply vendor filter if specified
+    if vendor_filter:
+        target_list = [m for m in target_list if m['vendor_name'].lower() == vendor_filter.lower()]
+
+    # Generate answer text
+    summary = all_results['summary']
+    answer_parts = []
+
+    if show_matched:
+        answer_parts.append(f"**Invoice-PO Match Analysis**\n")
+        answer_parts.append(f"I found **{summary['total_matched']} perfectly matched invoices** out of {all_results['total_invoices']} total invoices analyzed.\n")
+    else:
+        answer_parts.append(f"**Invoice-PO Mismatch Analysis**\n")
+        answer_parts.append(f"I found **{summary['total_mismatched']} mismatched invoices** out of {all_results['total_invoices']} total invoices analyzed.\n")
+
+    if vendor_filter:
+        answer_parts.append(f"\n**Filtered by vendor: {vendor_filter}**")
+        answer_parts.append(f"Found {len(target_list)} {target_type} invoices for this vendor.\n")
+
+    if show_matched:
+        # Show matched invoices
+        if len(target_list) > 0:
+            answer_parts.append(f"\n**These invoices perfectly match their reference purchase orders:**\n")
+            for idx, match in enumerate(target_list, 1):
+                answer_parts.append(
+                    f"{idx}. **{match['invoice_number']}** → PO {match['po_reference']} ✓\n"
+                    f"   - Vendor: {match['vendor_name']}\n"
+                    f"   - Amount: ${match['invoice_total']:,.2f}\n"
+                    f"   - All details match perfectly\n"
+                )
+        else:
+            answer_parts.append(f"\n**No perfectly matched invoices found.** All invoices have some discrepancies with their referenced POs.")
+    else:
+        # Show mismatched invoices
+        if summary['total_mismatched'] > 0:
+            answer_parts.append(f"\n**Summary:**")
+            answer_parts.append(f"- Total amount variance: ${summary['total_amount_variance']:,.2f}")
+            answer_parts.append(f"- High severity issues: {summary['high_severity_issues']}")
+            answer_parts.append(f"- Medium severity issues: {summary['medium_severity_issues']}\n")
+
+            # Show ALL mismatches
+            answer_parts.append(f"\n**All Mismatched Invoices ({len(target_list)}):**\n")
+            for idx, mismatch in enumerate(target_list, 1):
+                variance = abs(mismatch['invoice_total'] - mismatch['po_total'])
+                answer_parts.append(
+                    f"{idx}. **{mismatch['invoice_number']}** → PO {mismatch['po_reference']}\n"
+                    f"   - Vendor: {mismatch['vendor_name']}\n"
+                    f"   - Invoice Total: ${mismatch['invoice_total']:,.2f} | PO Total: ${mismatch['po_total']:,.2f}\n"
+                    f"   - Variance: ${variance:,.2f}\n"
+                    f"   - Issues: {mismatch['total_issues']}\n"
+                )
+
+                # Show specific issues
+                if mismatch['header_issues']:
+                    for issue in mismatch['header_issues'][:3]:  # Show top 3 issues per invoice
+                        field = issue['field']
+                        if 'difference' in issue:
+                            diff = issue['difference']
+                            answer_parts.append(f"     • {field}: ${diff:+,.2f} difference\n")
+                        else:
+                            answer_parts.append(f"     • {field}: mismatch detected\n")
+        else:
+            answer_parts.append(f"\n**Great news!** All invoices match their referenced purchase orders perfectly. ✓")
+
+    answer = "\n".join(answer_parts)
+
+    # Create source documents
+    sources = []
+    for item in target_list[:5]:  # Top 5 as sources
+        if show_matched:
+            excerpt = f"Invoice {item['invoice_number']} references PO {item['po_reference']}. "
+            excerpt += f"Invoice total: ${item['invoice_total']:,.2f}, PO total: ${item['po_total']:,.2f}. "
+            excerpt += f"All details match perfectly."
+        else:
+            excerpt = f"Invoice {item['invoice_number']} references PO {item['po_reference']}. "
+            excerpt += f"Invoice total: ${item['invoice_total']:,.2f}, PO total: ${item['po_total']:,.2f}. "
+            excerpt += f"Found {item['total_issues']} issues."
+
+        sources.append({
+            'doc_id': item['invoice_number'],
+            'doc_type': 'Invoice',
+            'vendor': item['vendor_name'],
+            'amount': item['invoice_total'],
+            'date': item.get('invoice_date', 'Unknown'),
+            'relevance': 1.0,  # Exact match
+            'excerpt': excerpt
+        })
+
+    return {
+        'answer': answer,
+        'sources': sources,
+        'metadata': all_results
+    }
+
+
 @app.post("/api/query")
 async def query_documents(request: QueryRequest) -> QueryResponse:
     """Query the RAG system"""
@@ -309,6 +466,40 @@ async def query_documents(request: QueryRequest) -> QueryResponse:
         raise HTTPException(status_code=400, detail="Question cannot be empty")
 
     try:
+        # Check if this is a mismatch query
+        if is_mismatch_query(request.question):
+            print(f"\n [MISMATCH QUERY DETECTED] Routing to Invoice-PO matcher")
+
+            # Parse vendor filter if any
+            vendor, _, _, _ = parse_query_filters(request.question, request)
+
+            # Handle mismatch query
+            result = handle_mismatch_query(request.question, vendor)
+
+            # Format sources
+            sources = [
+                SourceDocument(
+                    doc_id=src['doc_id'],
+                    doc_type=src['doc_type'],
+                    vendor=src['vendor'],
+                    amount=src['amount'],
+                    date=src['date'],
+                    relevance=src['relevance'],
+                    excerpt=src['excerpt']
+                )
+                for src in result['sources']
+            ]
+
+            from datetime import datetime
+
+            return QueryResponse(
+                question=request.question,
+                answer=result['answer'],
+                sources=sources,
+                timestamp=datetime.now().isoformat()
+            )
+
+        # Normal RAG query
         # Parse query for filters
         vendor, min_amount, max_amount, n_results = parse_query_filters(request.question, request)
 
@@ -366,11 +557,11 @@ async def get_suggestions():
             "What is the total value of all purchase orders?",
             "Show me all invoices from Global Tech Solutions",
             "Show me all documents over $10,000",
-            "Show me all invoices issued in November 2025",
+            "Show me mismatched invoices and purchase orders",
+            "Which invoices don't match their purchase orders?",
             "Tell me about purchase order PO-2024-01006",
             "Show me all documents from Nordic Supplies AB",
-            "Show me all purchase orders by value",
-            "Give me every invoice from Industrial Components Inc"
+            "Find invoice-PO discrepancies"
         ]
     }
 

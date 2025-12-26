@@ -1,0 +1,1253 @@
+[
+  {
+    "grn_number": "GRN-08001",
+    "grn_date": "2025-10-31",
+    "vendor_name": "Global Tech Solutions",
+    "po_reference": "PO-2024-01001",
+    "received_by": "Christina King",
+    "warehouse": "WH-EAST",
+    "received_items": [
+      {
+        "item_code": "IN-002",
+        "description": "Steel Beam 10m I-Section",
+        "quantity_received": 5,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ],
+    "document_type": "grn",
+    "item_count": 1,
+    "total_received": 5,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08001_modern.pdf",
+      "file_size": 2233,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:38:23.738983",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "grn_number": "GRN-08002",
+    "grn_date": "2025-11-19",
+    "vendor_name": "Nordic Supplies AB",
+    "po_reference": "PO-2024-01002",
+    "received_by": "Brandon Larsen",
+    "warehouse": "WH-CENTRAL",
+    "received_items": [
+      {
+        "item_code": "OS-005",
+        "description": "File Cabinet 4-Drawer",
+        "quantity_received": 7,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ],
+    "document_type": "grn",
+    "item_count": 1,
+    "total_received": 7,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08002_modern.pdf",
+      "file_size": 2232,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:38:27.637380",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "grn_number": "GRN-08003",
+    "grn_date": "2025-12-02",
+    "vendor_name": "Nordic Supplies AB",
+    "po_reference": "PO-2024-01003",
+    "received_by": "Ian Davis",
+    "warehouse": "WH-NORTH",
+    "received_items": [
+      {
+        "item_code": "OS-004",
+        "description": "Whiteboard 6x4 ft",
+        "quantity_received": 4,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ],
+    "document_type": "grn",
+    "item_count": 1,
+    "total_received": 4,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08003_modern.pdf",
+      "file_size": 2219,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:38:31.928123",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08004",
+    "grn_date": "2025-10-29",
+    "vendor_name": "PO REFERENCE",
+    "po_reference": "Pacific",
+    "received_by": "WAREHOUSE",
+    "warehouse": "John Santos WH-CENTRAL",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08004_creative.pdf",
+      "file_size": 2574,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:38:32.007328",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08005",
+    "grn_date": "2025-11-30",
+    "vendor_name": "Euro Parts Distributors",
+    "po_reference": "PO-2024-01005",
+    "received_by": null,
+    "warehouse": "Operations",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08005_classic.pdf",
+      "file_size": 2916,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:38:32.039073",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08006",
+    "grn_date": "2025-11-16",
+    "vendor_name": "PO REFERENCE",
+    "po_reference": "Nordic",
+    "received_by": "WAREHOUSE",
+    "warehouse": "Jennifer Mendez WH-NORTH",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08006_creative.pdf",
+      "file_size": 2419,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:38:32.055053",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08007",
+    "grn_date": "2025-10-12",
+    "vendor_name": "PO REFERENCE",
+    "po_reference": "Quality",
+    "received_by": "WAREHOUSE",
+    "warehouse": "Robert Taylor WH-EAST",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08007_creative.pdf",
+      "file_size": 2513,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:38:32.074097",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08008",
+    "grn_date": "2025-11-02",
+    "vendor_name": "Euro Parts Distributors",
+    "po_reference": "PO-2024-01008",
+    "received_by": null,
+    "warehouse": "Operations",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08008_classic.pdf",
+      "file_size": 3092,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:38:32.108623",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08009",
+    "grn_date": "2025-10-11",
+    "vendor_name": "PO REFERENCE",
+    "po_reference": "Premier",
+    "received_by": "WAREHOUSE",
+    "warehouse": "Steve Sanchez WH-SOUTH",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08009_creative.pdf",
+      "file_size": 2532,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:38:32.127671",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08010",
+    "grn_date": "2025-10-12",
+    "vendor_name": "PO REFERENCE",
+    "po_reference": "Acme",
+    "received_by": "WAREHOUSE",
+    "warehouse": "Michele Johnson WH-EAST",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08010_creative.pdf",
+      "file_size": 2513,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:38:32.145053",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08011",
+    "grn_date": "2025-11-21",
+    "vendor_name": "PO REFERENCE",
+    "po_reference": "Industrial",
+    "received_by": "WAREHOUSE",
+    "warehouse": "Nancy Edwards WH-WEST",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08011_creative.pdf",
+      "file_size": 2665,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:38:32.167756",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "grn_number": "GRN-08012",
+    "grn_date": "2025-11-02",
+    "vendor_name": "Premier Office Equipment",
+    "po_reference": "PO-2024-01012",
+    "received_by": "Richard Rodriguez",
+    "warehouse": "WH-CENTRAL",
+    "received_items": [
+      {
+        "item_code": "IT-002",
+        "description": "HP Desktop Workstation",
+        "quantity_received": 3,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-003",
+        "description": "Safety Harness Kit",
+        "quantity_received": 13,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IT-001",
+        "description": "Dell Laptop XPS 15",
+        "quantity_received": 10,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity_received": 7,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ],
+    "document_type": "grn",
+    "item_count": 4,
+    "total_received": 33,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08012_modern.pdf",
+      "file_size": 2439,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:38:37.880651",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08013",
+    "grn_date": "2025-11-21",
+    "vendor_name": "PO REFERENCE",
+    "po_reference": "Nordic",
+    "received_by": "WAREHOUSE",
+    "warehouse": "Heather Tate WH-WEST",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08013_creative.pdf",
+      "file_size": 2437,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:38:37.915753",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "grn_number": "GRN-08014",
+    "grn_date": "2025-11-28",
+    "vendor_name": "Quality Manufacturing",
+    "po_reference": "PO-2024-01014",
+    "received_by": "Angela Webb",
+    "warehouse": "WH-SOUTH",
+    "received_items": [
+      {
+        "item_code": "IT-005",
+        "description": "Logitech Wireless Keyboard & Mouse",
+        "quantity_received": 7,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ],
+    "document_type": "grn",
+    "item_count": 1,
+    "total_received": 7,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08014_modern.pdf",
+      "file_size": 2261,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:38:42.883120",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "grn_number": "GRN-08015",
+    "grn_date": "2025-11-24",
+    "vendor_name": "Nordic Supplies AB",
+    "po_reference": "PO-2024-01015",
+    "received_by": "Jacob Flores",
+    "warehouse": "WH-SOUTH",
+    "received_items": [
+      {
+        "item_code": "OS-004",
+        "description": "Whiteboard 6x4 ft",
+        "quantity_received": 14,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IT-002",
+        "description": "HP Desktop Workstation",
+        "quantity_received": 14,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ],
+    "document_type": "grn",
+    "item_count": 2,
+    "total_received": 28,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08015_modern.pdf",
+      "file_size": 2302,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:38:47.918285",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08016",
+    "grn_date": "2025-10-13",
+    "vendor_name": "PO REFERENCE",
+    "po_reference": "Quality",
+    "received_by": "WAREHOUSE",
+    "warehouse": "Rose Brown WH-SOUTH",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08016_creative.pdf",
+      "file_size": 2509,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:38:47.945321",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "grn_number": "GRN-08017",
+    "grn_date": "2025-10-17",
+    "vendor_name": "Quality Manufacturing",
+    "po_reference": "PO-2024-01017",
+    "received_by": "James King",
+    "warehouse": "WH-SOUTH",
+    "received_items": [
+      {
+        "item_code": "IT-004",
+        "description": "Samsung 27\" Monitor",
+        "quantity_received": 15,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IT-001",
+        "description": "Dell Laptop XPS 15",
+        "quantity_received": 2,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity_received": 8,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ],
+    "document_type": "grn",
+    "item_count": 3,
+    "total_received": 25,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08017_modern.pdf",
+      "file_size": 2359,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:38:53.179041",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08018",
+    "grn_date": "2025-11-12",
+    "vendor_name": "Pacific Traders",
+    "po_reference": "PO-2024-01018",
+    "received_by": null,
+    "warehouse": "Operations",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08018_classic.pdf",
+      "file_size": 3011,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:38:53.224133",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "grn_number": "GRN-08019",
+    "grn_date": "2025-11-26",
+    "vendor_name": "Euro Parts Distributors",
+    "po_reference": "PO-2024-01019",
+    "received_by": "Patricia Johnson",
+    "warehouse": "WH-CENTRAL",
+    "received_items": [
+      {
+        "item_code": "OS-003",
+        "description": "Printer Paper A4 (5 Reams)",
+        "quantity_received": 2,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "OS-004",
+        "description": "Whiteboard 6x4 ft",
+        "quantity_received": 2,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity_received": 10,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ],
+    "document_type": "grn",
+    "item_count": 3,
+    "total_received": 14,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08019_modern.pdf",
+      "file_size": 2371,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:38:58.474590",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08020",
+    "grn_date": "2025-12-12",
+    "vendor_name": "Global Tech Solutions",
+    "po_reference": "PO-2024-01020",
+    "received_by": null,
+    "warehouse": "Operations",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08020_classic.pdf",
+      "file_size": 2904,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:38:58.509668",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "grn_number": "GRN-08021",
+    "grn_date": "2025-11-15",
+    "vendor_name": "Industrial Components Inc",
+    "po_reference": "PO-2024-01021",
+    "received_by": "Michael Ortiz",
+    "warehouse": "WH-SOUTH",
+    "received_items": [
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity_received": 9,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "OS-003",
+        "description": "Printer Paper A4 (5 Reams)",
+        "quantity_received": 15,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IT-004",
+        "description": "Samsung 27\" Monitor",
+        "quantity_received": 10,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ],
+    "document_type": "grn",
+    "item_count": 3,
+    "total_received": 34,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08021_modern.pdf",
+      "file_size": 2391,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:39:04.289096",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08022",
+    "grn_date": "2025-11-29",
+    "vendor_name": "PO REFERENCE",
+    "po_reference": "Global",
+    "received_by": "WAREHOUSE",
+    "warehouse": "Rodney Pena WH-EAST",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08022_creative.pdf",
+      "file_size": 2424,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:39:04.328479",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08023",
+    "grn_date": "2025-10-14",
+    "vendor_name": "Global Tech Solutions",
+    "po_reference": "PO-2024-01023",
+    "received_by": null,
+    "warehouse": "Operations",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08023_classic.pdf",
+      "file_size": 2912,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:39:04.360322",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "grn_number": "GRN-08024",
+    "grn_date": "2025-10-11",
+    "vendor_name": "Industrial Components Inc",
+    "po_reference": "PO-2024-01024",
+    "received_by": "David Hamilton",
+    "warehouse": "WH-WEST",
+    "received_items": [
+      {
+        "item_code": "IT-003",
+        "description": "Cisco Network Switch 24-Port",
+        "quantity_received": 8,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "OS-002",
+        "description": "Standing Desk Adjustable",
+        "quantity_received": 15,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity_received": 13,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IT-005",
+        "description": "Logitech Wireless Keyboard & Mouse",
+        "quantity_received": 9,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ],
+    "document_type": "grn",
+    "item_count": 4,
+    "total_received": 45,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08024_modern.pdf",
+      "file_size": 2469,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:39:10.429498",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08025",
+    "grn_date": "2025-11-15",
+    "vendor_name": "Industrial Components Inc",
+    "po_reference": "PO-2024-01025",
+    "received_by": null,
+    "warehouse": "Operations",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08025_classic.pdf",
+      "file_size": 3001,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:39:10.472801",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "grn_number": "GRN-08026",
+    "grn_date": "2025-10-29",
+    "vendor_name": "Euro Parts Distributors",
+    "po_reference": "PO-2024-01026",
+    "received_by": "Michael Ward",
+    "warehouse": "WH-WEST",
+    "received_items": [
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity_received": 8,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-003",
+        "description": "Safety Harness Kit",
+        "quantity_received": 12,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-004",
+        "description": "Industrial LED Lighting 100W",
+        "quantity_received": 13,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ],
+    "document_type": "grn",
+    "item_count": 3,
+    "total_received": 33,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08026_modern.pdf",
+      "file_size": 2362,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:39:15.340940",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "grn_number": "GRN-08027",
+    "grn_date": "2025-10-21",
+    "vendor_name": "Swift Logistics Co",
+    "po_reference": "PO-2024-01027",
+    "received_by": "Stacie Ingram",
+    "warehouse": "WH-SOUTH",
+    "received_items": [
+      {
+        "item_code": "IT-001",
+        "description": "Dell Laptop XPS 15",
+        "quantity_received": 12,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "OS-005",
+        "description": "File Cabinet 4-Drawer",
+        "quantity_received": 12,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ],
+    "document_type": "grn",
+    "item_count": 2,
+    "total_received": 24,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08027_modern.pdf",
+      "file_size": 2301,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:39:20.438878",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08028",
+    "grn_date": "2025-11-05",
+    "vendor_name": "Nordic Supplies AB",
+    "po_reference": "PO-2024-01028",
+    "received_by": null,
+    "warehouse": "Operations",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08028_classic.pdf",
+      "file_size": 2980,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:39:20.481441",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "grn_number": "GRN-08029",
+    "grn_date": "2025-11-21",
+    "vendor_name": "Atlas Equipment Corp",
+    "po_reference": "PO-2024-01029",
+    "received_by": "Logan Brown",
+    "warehouse": "WH-NORTH",
+    "received_items": [
+      {
+        "item_code": "OS-005",
+        "description": "File Cabinet 4-Drawer",
+        "quantity_received": 1,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity_received": 7,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ],
+    "document_type": "grn",
+    "item_count": 2,
+    "total_received": 8,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08029_modern.pdf",
+      "file_size": 2292,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:39:24.921823",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "grn_number": "GRN-08030",
+    "grn_date": "2025-11-06",
+    "vendor_name": "Swift Logistics Co",
+    "po_reference": "PO-2024-01030",
+    "received_by": "Richard Atkinson",
+    "warehouse": "WH-SOUTH",
+    "received_items": [
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity_received": 6,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "IN-002",
+        "description": "Steel Beam 10m I-Section",
+        "quantity_received": 7,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ],
+    "document_type": "grn",
+    "item_count": 2,
+    "total_received": 13,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08030_modern.pdf",
+      "file_size": 2306,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:39:29.681009",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08031",
+    "grn_date": "2025-11-03",
+    "vendor_name": "Global Tech Solutions",
+    "po_reference": "PO-2024-01031",
+    "received_by": null,
+    "warehouse": "Operations",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08031_classic.pdf",
+      "file_size": 2921,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:39:29.726007",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08032",
+    "grn_date": "2025-11-23",
+    "vendor_name": "PO REFERENCE",
+    "po_reference": "Industrial",
+    "received_by": "WAREHOUSE",
+    "warehouse": "Brad Nielsen WH-WEST",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08032_creative.pdf",
+      "file_size": 2602,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:39:29.746672",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08033",
+    "grn_date": "2025-11-11",
+    "vendor_name": "Nordic Supplies AB",
+    "po_reference": "PO-2024-01033",
+    "received_by": null,
+    "warehouse": "Operations",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08033_classic.pdf",
+      "file_size": 2915,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:39:29.771230",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "grn_number": "GRN-08034",
+    "grn_date": "2025-10-21",
+    "vendor_name": "Global Tech Solutions",
+    "po_reference": "PO-2024-01034",
+    "received_by": "Cynthia Stone",
+    "warehouse": "WH-NORTH",
+    "received_items": [
+      {
+        "item_code": "IN-002",
+        "description": "Steel Beam 10m I-Section",
+        "quantity_received": 9,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      }
+    ],
+    "document_type": "grn",
+    "item_count": 1,
+    "total_received": 9,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08034_modern.pdf",
+      "file_size": 2232,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:39:35.035454",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08035",
+    "grn_date": "2025-11-25",
+    "vendor_name": "Quality Manufacturing",
+    "po_reference": "PO-2024-01035",
+    "received_by": null,
+    "warehouse": "Operations",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08035_classic.pdf",
+      "file_size": 2995,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:39:35.076629",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08036",
+    "grn_date": "2025-11-08",
+    "vendor_name": "Euro Parts Distributors",
+    "po_reference": "PO-2024-01036",
+    "received_by": null,
+    "warehouse": "Operations",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08036_classic.pdf",
+      "file_size": 3075,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:39:35.106770",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08037",
+    "grn_date": "2025-10-16",
+    "vendor_name": "PO REFERENCE",
+    "po_reference": "Global",
+    "received_by": "WAREHOUSE",
+    "warehouse": "Joshua Townsend WH-WEST",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08037_creative.pdf",
+      "file_size": 2422,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:39:35.121843",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08038",
+    "grn_date": "2025-11-04",
+    "vendor_name": "PO REFERENCE",
+    "po_reference": "Atlas",
+    "received_by": "WAREHOUSE",
+    "warehouse": "Darlene Obrien WH-WEST",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08038_creative.pdf",
+      "file_size": 2524,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:39:35.137466",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08039",
+    "grn_date": "2025-11-06",
+    "vendor_name": "PO REFERENCE",
+    "po_reference": "Industrial",
+    "received_by": "WAREHOUSE",
+    "warehouse": "Christopher Morgan WH-CENTRAL",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08039_creative.pdf",
+      "file_size": 2439,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:39:35.150905",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08040",
+    "grn_date": "2025-10-21",
+    "vendor_name": "Industrial Components Inc",
+    "po_reference": "PO-2024-01040",
+    "received_by": null,
+    "warehouse": "Operations",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08040_classic.pdf",
+      "file_size": 2986,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:39:35.176692",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08041",
+    "grn_date": "2025-11-27",
+    "vendor_name": "Swift Logistics Co",
+    "po_reference": "PO-2024-01041",
+    "received_by": null,
+    "warehouse": "Operations",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08041_classic.pdf",
+      "file_size": 2982,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:39:35.203984",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08042",
+    "grn_date": "2025-10-30",
+    "vendor_name": "Quality Manufacturing",
+    "po_reference": "PO-2024-01042",
+    "received_by": null,
+    "warehouse": "Operations",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08042_classic.pdf",
+      "file_size": 3062,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:39:35.231616",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08043",
+    "grn_date": "2025-12-15",
+    "vendor_name": "PO REFERENCE",
+    "po_reference": "Nordic",
+    "received_by": "WAREHOUSE",
+    "warehouse": "Catherine Graham WH-SOUTH",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08043_creative.pdf",
+      "file_size": 2668,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:39:35.251542",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "grn",
+    "grn_number": "GRN-08044",
+    "grn_date": "2025-11-02",
+    "vendor_name": "Nordic Supplies AB",
+    "po_reference": "PO-2024-01044",
+    "received_by": null,
+    "warehouse": "Operations",
+    "received_items": [],
+    "item_count": 0,
+    "total_received": 0,
+    "total_rejected": 0,
+    "acceptance_rate": 100.0,
+    "metadata": {
+      "filename": "GRN-08044_classic.pdf",
+      "file_size": 2934,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:39:35.276855",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "grn_number": "GRN-08045",
+    "grn_date": "2025-10-10",
+    "vendor_name": "Acme Supplies Ltd",
+    "po_reference": "PO-2024-01045",
+    "received_by": "Jason Fitzgerald",
+    "warehouse": "WH-NORTH",
+    "received_items": [
+      {
+        "item_code": "OS-001",
+        "description": "Ergonomic Office Chair",
+        "quantity_received": 2,
+        "quantity_rejected": 0,
+        "condition": "Good"
+      },
+      {
+        "item_code": "OS-002",
+        "description": "Standing Desk Adjustable",
+        "quantity_received": 13,
+        "quantity_rejected": 2,
+        "condition": "Damaged"
+      }
+    ],
+    "document_type": "grn",
+    "item_count": 2,
+    "total_received": 15,
+    "total_rejected": 2,
+    "acceptance_rate": 88.24,
+    "metadata": {
+      "filename": "GRN-08045_modern.pdf",
+      "file_size": 2351,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:39:39.603307",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  }
+]

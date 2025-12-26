@@ -1,0 +1,2007 @@
+[
+  {
+    "document_type": "purchase_order",
+    "po_number": "PO-2024-00150",
+    "po_date": "2025-12-19",
+    "vendor_name": "CloudTech Innovations Inc",
+    "vendor_id": "V-5001",
+    "buyer_name": "Alex Rodriguez",
+    "department": "Cloud Infrastructure",
+    "delivery_date": "2026-01-09",
+    "currency": "USD",
+    "total_amount": 1.0,
+    "subtotal": 8440.0,
+    "tax": null,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "PO-2024-00150_autotest.pdf",
+      "file_size": 2572,
+      "layout_style": "unknown",
+      "processed_at": "2025-12-26T17:43:23.067021",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01001",
+    "po_date": "2025-10-18",
+    "vendor_name": "Global Tech Solutions",
+    "vendor_id": null,
+    "buyer_name": "Juan Turner",
+    "department": "Finance",
+    "delivery_date": "2025-10-31",
+    "currency": "USD",
+    "total_amount": 3010.72,
+    "subtotal": 2867.35,
+    "tax": 143.37,
+    "line_items": [
+      {
+        "item_code": "IN-002",
+        "description": "Steel Beam 10m I-Section",
+        "quantity": 5,
+        "unit_price": 573.47,
+        "total": 2867.35
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 1,
+    "metadata": {
+      "filename": "PO-2024-01001_creative.pdf",
+      "file_size": 2710,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:43:28.854843",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01002",
+    "po_date": "2025-10-31",
+    "vendor_name": "Nordic Supplies AB",
+    "vendor_id": null,
+    "buyer_name": "Sabrina Johnson",
+    "department": "Operations",
+    "delivery_date": "2025-11-17",
+    "currency": "USD",
+    "total_amount": 1083.39,
+    "subtotal": 1083.39,
+    "tax": 0.0,
+    "line_items": [
+      {
+        "item_code": "OS-005",
+        "description": "File Cabinet 4-Drawer",
+        "quantity": 7,
+        "unit_price": 154.77,
+        "total": 1083.39
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 1,
+    "metadata": {
+      "filename": "PO-2024-01002_modern.pdf",
+      "file_size": 2494,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:43:34.529360",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01003",
+    "po_date": "2025-11-14",
+    "vendor_name": "Nordic Supplies AB",
+    "vendor_id": null,
+    "buyer_name": "Robert Sanchez",
+    "department": "Manufacturing",
+    "delivery_date": "2025-12-01",
+    "currency": "USD",
+    "total_amount": 775.63,
+    "subtotal": 686.4,
+    "tax": 89.23,
+    "line_items": [
+      {
+        "item_code": "OS-004",
+        "description": "Whiteboard 6x4 ft",
+        "quantity": 4,
+        "unit_price": 171.6,
+        "total": 686.4
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 1,
+    "metadata": {
+      "filename": "PO-2024-01003_modern.pdf",
+      "file_size": 2470,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:43:40.571257",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01004",
+    "po_date": "2025-10-16",
+    "vendor_name": "Pacific Traders",
+    "vendor_id": null,
+    "buyer_name": "Ricky Walker",
+    "department": "IT",
+    "delivery_date": "2025-10-28",
+    "currency": "USD",
+    "total_amount": 11641.27,
+    "subtotal": 10778.95,
+    "tax": 862.32,
+    "line_items": [
+      {
+        "item_code": "IN-003",
+        "description": "Safety Harness Kit",
+        "quantity": 13,
+        "unit_price": 230.58,
+        "total": 2997.54
+      },
+      {
+        "item_code": "IN-004",
+        "description": "Industrial LED Lighting 100W",
+        "quantity": 12,
+        "unit_price": 109.58,
+        "total": 1314.96
+      },
+      {
+        "item_code": "IT-001",
+        "description": "Dell Laptop XPS 15",
+        "quantity": 5,
+        "unit_price": 1293.29,
+        "total": 6466.45
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 3,
+    "metadata": {
+      "filename": "PO-2024-01004_creative.pdf",
+      "file_size": 2878,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:43:46.601583",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01005",
+    "po_date": "2025-11-06",
+    "vendor_name": "Euro Parts Distributors",
+    "vendor_id": null,
+    "buyer_name": "Richard Herring",
+    "department": "IT",
+    "delivery_date": "2025-11-30",
+    "currency": "USD",
+    "total_amount": 4820.1,
+    "subtotal": 4463.06,
+    "tax": 357.04,
+    "line_items": [
+      {
+        "item_code": "OS-001",
+        "description": "Ergonomic Office Chair",
+        "quantity": 14,
+        "unit_price": 318.79,
+        "total": 4463.06
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 1,
+    "metadata": {
+      "filename": "PO-2024-01005_modern.pdf",
+      "file_size": 2500,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:43:54.103468",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "purchase_order",
+    "po_number": "PO-2024-01006",
+    "po_date": "2025-10-17",
+    "vendor_name": "Nordic Supplies AB",
+    "vendor_id": "V-1009",
+    "buyer_name": "Mary Nelson",
+    "department": "Finance",
+    "delivery_date": "2025-11-15",
+    "currency": "USD",
+    "total_amount": 2965.48,
+    "subtotal": 2965.48,
+    "tax": 237.24,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "PO-2024-01006_classic.pdf",
+      "file_size": 3473,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:43:54.160574",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01007",
+    "po_date": "2025-09-29",
+    "vendor_name": "Quality Manufacturing",
+    "vendor_id": null,
+    "buyer_name": "Casey Foster",
+    "department": "Operations",
+    "delivery_date": "2025-10-12",
+    "currency": "USD",
+    "total_amount": 13731.79,
+    "subtotal": 13731.79,
+    "tax": 0.0,
+    "line_items": [
+      {
+        "item_code": "IN-002",
+        "description": "Steel Beam 10m I-Section",
+        "quantity": 1,
+        "unit_price": 698.38,
+        "total": 698.38
+      },
+      {
+        "item_code": "IT-002",
+        "description": "HP Desktop Workstation",
+        "quantity": 13,
+        "unit_price": 1002.57,
+        "total": 13033.41
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 2,
+    "metadata": {
+      "filename": "PO-2024-01007_modern.pdf",
+      "file_size": 2599,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:44:02.239979",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01008",
+    "po_date": "2025-10-02",
+    "vendor_name": "Euro Parts Distributors",
+    "vendor_id": null,
+    "buyer_name": "Carrie Boone",
+    "department": "Procurement",
+    "delivery_date": "2025-11-01",
+    "currency": "USD",
+    "total_amount": 17360.65,
+    "subtotal": 17360.65,
+    "tax": 0.0,
+    "line_items": [
+      {
+        "item_code": "OS-003",
+        "description": "Printer Paper A4 (5 Reams)",
+        "quantity": 3,
+        "unit_price": 30.55,
+        "total": 91.65
+      },
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity": 4,
+        "unit_price": 3005.26,
+        "total": 12021.04
+      },
+      {
+        "item_code": "OS-001",
+        "description": "Ergonomic Office Chair",
+        "quantity": 12,
+        "unit_price": 437.33,
+        "total": 5247.96
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 3,
+    "metadata": {
+      "filename": "PO-2024-01008_creative.pdf",
+      "file_size": 2934,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:44:10.574612",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01009",
+    "po_date": "2025-09-21",
+    "vendor_name": "Premier Office Equipment",
+    "vendor_id": null,
+    "buyer_name": "Walter Smith",
+    "department": "Operations",
+    "delivery_date": "2025-10-11",
+    "currency": "USD",
+    "total_amount": 5973.02,
+    "subtotal": 5285.86,
+    "tax": 687.16,
+    "line_items": [
+      {
+        "item_code": "IT-003",
+        "description": "Cisco Network Switch 24-Port",
+        "quantity": 7,
+        "unit_price": 680.98,
+        "total": 4766.86
+      },
+      {
+        "item_code": "OS-003",
+        "description": "Printer Paper A4 (5 Reams)",
+        "quantity": 15,
+        "unit_price": 34.6,
+        "total": 519.0
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 2,
+    "metadata": {
+      "filename": "PO-2024-01009_creative.pdf",
+      "file_size": 2859,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:44:17.263207",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "purchase_order",
+    "po_number": "PO-2024-01010",
+    "po_date": "2025-09-20",
+    "vendor_name": "Acme Supplies Ltd",
+    "vendor_id": "V-1001",
+    "buyer_name": "Mrs. Katie Scott",
+    "department": "Finance",
+    "delivery_date": "2025-10-10",
+    "currency": "USD",
+    "total_amount": 7525.59,
+    "subtotal": 7525.59,
+    "tax": 978.33,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "PO-2024-01010_classic.pdf",
+      "file_size": 3613,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:44:17.324832",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01011",
+    "po_date": "2025-11-04",
+    "vendor_name": "Industrial Components Inc",
+    "vendor_id": null,
+    "buyer_name": "April Lawrence",
+    "department": "Facilities",
+    "delivery_date": "2025-11-21",
+    "currency": "USD",
+    "total_amount": 46838.6,
+    "subtotal": 42580.55,
+    "tax": 4258.05,
+    "line_items": [
+      {
+        "item_code": "OS-002",
+        "description": "Standing Desk Adjustable",
+        "quantity": 5,
+        "unit_price": 441.89,
+        "total": 2209.45
+      },
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity": 12,
+        "unit_price": 2842.05,
+        "total": 34104.6
+      },
+      {
+        "item_code": "OS-003",
+        "description": "Printer Paper A4 (5 Reams)",
+        "quantity": 5,
+        "unit_price": 36.21,
+        "total": 181.05
+      },
+      {
+        "item_code": "IT-003",
+        "description": "Cisco Network Switch 24-Port",
+        "quantity": 7,
+        "unit_price": 869.35,
+        "total": 6085.45
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 4,
+    "metadata": {
+      "filename": "PO-2024-01011_creative.pdf",
+      "file_size": 3047,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:44:25.075872",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01012",
+    "po_date": "2025-10-13",
+    "vendor_name": "Premier Office Equipment",
+    "vendor_id": null,
+    "buyer_name": "Mary Rhodes",
+    "department": "Procurement",
+    "delivery_date": "2025-10-31",
+    "currency": "USD",
+    "total_amount": 25283.36,
+    "subtotal": 22984.87,
+    "tax": 2298.49,
+    "line_items": [
+      {
+        "item_code": "IT-002",
+        "description": "HP Desktop Workstation",
+        "quantity": 3,
+        "unit_price": 1239.21,
+        "total": 3717.63
+      },
+      {
+        "item_code": "IN-003",
+        "description": "Safety Harness Kit",
+        "quantity": 13,
+        "unit_price": 218.05,
+        "total": 2834.65
+      },
+      {
+        "item_code": "IT-001",
+        "description": "Dell Laptop XPS 15",
+        "quantity": 10,
+        "unit_price": 1238.12,
+        "total": 12381.2
+      },
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity": 7,
+        "unit_price": 578.77,
+        "total": 4051.39
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 4,
+    "metadata": {
+      "filename": "PO-2024-01012_modern.pdf",
+      "file_size": 2775,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:44:32.088014",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01013",
+    "po_date": "2025-10-22",
+    "vendor_name": "Nordic Supplies AB",
+    "vendor_id": null,
+    "buyer_name": "Elizabeth Francis",
+    "department": "Facilities",
+    "delivery_date": "2025-11-21",
+    "currency": "USD",
+    "total_amount": 29450.01,
+    "subtotal": 26061.96,
+    "tax": 3388.05,
+    "line_items": [
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity": 12,
+        "unit_price": 2171.83,
+        "total": 26061.96
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 1,
+    "metadata": {
+      "filename": "PO-2024-01013_creative.pdf",
+      "file_size": 2715,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:44:38.273929",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01014",
+    "po_date": "2025-11-10",
+    "vendor_name": "Quality Manufacturing",
+    "vendor_id": null,
+    "buyer_name": "Amy Aguilar",
+    "department": "Finance",
+    "delivery_date": "2025-11-28",
+    "currency": "USD",
+    "total_amount": 405.37,
+    "subtotal": 405.37,
+    "tax": 0.0,
+    "line_items": [
+      {
+        "item_code": "IT-005",
+        "description": "Logitech Wireless Keyboard & Mouse",
+        "quantity": 7,
+        "unit_price": 57.91,
+        "total": 405.37
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 1,
+    "metadata": {
+      "filename": "PO-2024-01014_creative.pdf",
+      "file_size": 2734,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:44:43.220796",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "purchase_order",
+    "po_number": "PO-2024-01015",
+    "po_date": "2025-11-09",
+    "vendor_name": "Nordic Supplies AB",
+    "vendor_id": "V-1009",
+    "buyer_name": "Mary Coleman",
+    "department": "Operations",
+    "delivery_date": "2025-11-23",
+    "currency": "USD",
+    "total_amount": 19737.06,
+    "subtotal": 19737.06,
+    "tax": 2565.82,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "PO-2024-01015_classic.pdf",
+      "file_size": 3582,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:44:43.275967",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "purchase_order",
+    "po_number": "PO-2024-01016",
+    "po_date": "2025-09-28",
+    "vendor_name": "Quality Manufacturing",
+    "vendor_id": "V-1006",
+    "buyer_name": "Andrew Williams",
+    "department": "IT",
+    "delivery_date": "2025-10-11",
+    "currency": "USD",
+    "total_amount": 2505.49,
+    "subtotal": 2505.49,
+    "tax": 250.55,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "PO-2024-01016_classic.pdf",
+      "file_size": 3576,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:44:43.311856",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "purchase_order",
+    "po_number": "PO-2024-01017",
+    "po_date": "2025-10-03",
+    "vendor_name": "Quality Manufacturing",
+    "vendor_id": "V-1006",
+    "buyer_name": "David Vazquez",
+    "department": "Operations",
+    "delivery_date": "2025-10-17",
+    "currency": "USD",
+    "total_amount": 13863.31,
+    "subtotal": 13863.31,
+    "tax": 1802.23,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "PO-2024-01017_classic.pdf",
+      "file_size": 3693,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:44:43.345985",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01018",
+    "po_date": "2025-10-23",
+    "vendor_name": "Pacific Traders",
+    "vendor_id": null,
+    "buyer_name": "Cory Murphy",
+    "department": "Finance",
+    "delivery_date": "2025-11-11",
+    "currency": "USD",
+    "total_amount": 1990.9,
+    "subtotal": 1896.18,
+    "tax": 94.81,
+    "line_items": [
+      {
+        "item_code": "IT-005",
+        "description": "Logitech Wireless Keyboard & Mouse",
+        "quantity": 14,
+        "unit_price": 80.33,
+        "total": 1124.62
+      },
+      {
+        "item_code": "OS-004",
+        "description": "Whiteboard 6x4 ft",
+        "quantity": 4,
+        "unit_price": 192.89,
+        "total": 771.56
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 2,
+    "metadata": {
+      "filename": "PO-2024-01018_modern.pdf",
+      "file_size": 2614,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:44:53.200543",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01019",
+    "po_date": "2025-11-15",
+    "vendor_name": "Euro Parts Distributors",
+    "vendor_id": null,
+    "buyer_name": "Tiffany Perry",
+    "department": "Operations",
+    "delivery_date": "2025-11-25",
+    "currency": "USD",
+    "total_amount": 6765.1,
+    "subtotal": 5986.86,
+    "tax": 778.29,
+    "line_items": [
+      {
+        "item_code": "OS-003",
+        "description": "Printer Paper A4 (5 Reams)",
+        "quantity": 2,
+        "unit_price": 28.72,
+        "total": 57.44
+      },
+      {
+        "item_code": "OS-004",
+        "description": "Whiteboard 6x4 ft",
+        "quantity": 2,
+        "unit_price": 133.81,
+        "total": 267.62
+      },
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity": 10,
+        "unit_price": 566.18,
+        "total": 5661.8
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 3,
+    "metadata": {
+      "filename": "PO-2024-01019_modern.pdf",
+      "file_size": 2678,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:45:00.234638",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01020",
+    "po_date": "2025-11-14",
+    "vendor_name": "Global Tech Solutions",
+    "vendor_id": null,
+    "buyer_name": "Joseph Bates",
+    "department": "IT",
+    "delivery_date": "2025-12-10",
+    "currency": "USD",
+    "total_amount": 1039.1,
+    "subtotal": 962.16,
+    "tax": 76.97,
+    "line_items": [
+      {
+        "item_code": "IT-004",
+        "description": "Samsung 27\" Monitor",
+        "quantity": 2,
+        "unit_price": 481.08,
+        "total": 962.16
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 1,
+    "metadata": {
+      "filename": "PO-2024-01020_modern.pdf",
+      "file_size": 2483,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:45:06.554736",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01021",
+    "po_date": "2025-10-29",
+    "vendor_name": "Industrial Components Inc",
+    "vendor_id": null,
+    "buyer_name": "Courtney Rivas",
+    "department": "Manufacturing",
+    "delivery_date": "2025-11-14",
+    "currency": "USD",
+    "total_amount": 26735.64,
+    "subtotal": 24305.13,
+    "tax": 2430.51,
+    "line_items": [
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity": 9,
+        "unit_price": 2198.47,
+        "total": 19786.23
+      },
+      {
+        "item_code": "OS-003",
+        "description": "Printer Paper A4 (5 Reams)",
+        "quantity": 15,
+        "unit_price": 38.24,
+        "total": 573.6
+      },
+      {
+        "item_code": "IT-004",
+        "description": "Samsung 27\" Monitor",
+        "quantity": 10,
+        "unit_price": 394.53,
+        "total": 3945.3
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 3,
+    "metadata": {
+      "filename": "PO-2024-01021_modern.pdf",
+      "file_size": 2744,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:45:12.215126",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01022",
+    "po_date": "2025-11-16",
+    "vendor_name": "Global Tech Solutions",
+    "vendor_id": null,
+    "buyer_name": "Jill Johnson",
+    "department": "Manufacturing",
+    "delivery_date": "2025-11-27",
+    "currency": "USD",
+    "total_amount": 19492.17,
+    "subtotal": 17720.15,
+    "tax": 1772.02,
+    "line_items": [
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity": 7,
+        "unit_price": 2531.45,
+        "total": 17720.15
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 1,
+    "metadata": {
+      "filename": "PO-2024-01022_creative.pdf",
+      "file_size": 2704,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:45:18.173023",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01023",
+    "po_date": "2025-09-26",
+    "vendor_name": "Global Tech Solutions",
+    "vendor_id": null,
+    "buyer_name": "Raymond Morrow",
+    "department": "Operations",
+    "delivery_date": "2025-10-12",
+    "currency": "USD",
+    "total_amount": 6021.48,
+    "subtotal": 6021.48,
+    "tax": 0.0,
+    "line_items": [
+      {
+        "item_code": "OS-002",
+        "description": "Standing Desk Adjustable",
+        "quantity": 12,
+        "unit_price": 501.79,
+        "total": 6021.48
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 1,
+    "metadata": {
+      "filename": "PO-2024-01023_creative.pdf",
+      "file_size": 2697,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:45:24.095232",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "purchase_order",
+    "po_number": "PO-2024-01024",
+    "po_date": "2025-09-29",
+    "vendor_name": "Industrial Components Inc",
+    "vendor_id": "V-1004",
+    "buyer_name": "Aimee Chambers",
+    "department": "IT",
+    "delivery_date": "2025-10-11",
+    "currency": "USD",
+    "total_amount": 20792.12,
+    "subtotal": 20792.12,
+    "tax": 2702.98,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "PO-2024-01024_classic.pdf",
+      "file_size": 3808,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:45:24.157780",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01025",
+    "po_date": "2025-11-04",
+    "vendor_name": "Industrial Components Inc",
+    "vendor_id": null,
+    "buyer_name": "Jessica Hall",
+    "department": "Manufacturing",
+    "delivery_date": "2025-11-14",
+    "currency": "USD",
+    "total_amount": 4181.88,
+    "subtotal": 3982.74,
+    "tax": 199.14,
+    "line_items": [
+      {
+        "item_code": "OS-002",
+        "description": "Standing Desk Adjustable",
+        "quantity": 8,
+        "unit_price": 464.12,
+        "total": 3712.96
+      },
+      {
+        "item_code": "OS-003",
+        "description": "Printer Paper A4 (5 Reams)",
+        "quantity": 7,
+        "unit_price": 38.54,
+        "total": 269.78
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 2,
+    "metadata": {
+      "filename": "PO-2024-01025_creative.pdf",
+      "file_size": 2847,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:45:29.625171",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "purchase_order",
+    "po_number": "PO-2024-01026",
+    "po_date": "2025-10-13",
+    "vendor_name": "Euro Parts Distributors",
+    "vendor_id": "V-1007",
+    "buyer_name": "Sandra Monroe",
+    "department": "Operations",
+    "delivery_date": "2025-10-29",
+    "currency": "USD",
+    "total_amount": 8379.02,
+    "subtotal": 8379.02,
+    "tax": 837.9,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "PO-2024-01026_classic.pdf",
+      "file_size": 3696,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:45:29.683258",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01027",
+    "po_date": "2025-09-26",
+    "vendor_name": "Swift Logistics Co",
+    "vendor_id": null,
+    "buyer_name": "Timothy Cox",
+    "department": "Procurement",
+    "delivery_date": "2025-10-21",
+    "currency": "USD",
+    "total_amount": 20668.32,
+    "subtotal": 20668.32,
+    "tax": 0.0,
+    "line_items": [
+      {
+        "item_code": "IT-001",
+        "description": "Dell Laptop XPS 15",
+        "quantity": 12,
+        "unit_price": 1525.32,
+        "total": 18303.84
+      },
+      {
+        "item_code": "OS-005",
+        "description": "File Cabinet 4-Drawer",
+        "quantity": 12,
+        "unit_price": 197.04,
+        "total": 2364.48
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 2,
+    "metadata": {
+      "filename": "PO-2024-01027_modern.pdf",
+      "file_size": 2597,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:45:35.876460",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01028",
+    "po_date": "2025-10-23",
+    "vendor_name": "Nordic Supplies AB",
+    "vendor_id": null,
+    "buyer_name": "Jason Franklin",
+    "department": "Manufacturing",
+    "delivery_date": "2025-11-05",
+    "currency": "USD",
+    "total_amount": 3927.65,
+    "subtotal": 3740.62,
+    "tax": 187.03,
+    "line_items": [
+      {
+        "item_code": "IT-001",
+        "description": "Dell Laptop XPS 15",
+        "quantity": 2,
+        "unit_price": 1710.81,
+        "total": 3421.62
+      },
+      {
+        "item_code": "OS-004",
+        "description": "Whiteboard 6x4 ft",
+        "quantity": 2,
+        "unit_price": 159.5,
+        "total": 319.0
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 2,
+    "metadata": {
+      "filename": "PO-2024-01028_creative.pdf",
+      "file_size": 2820,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:45:42.378868",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "purchase_order",
+    "po_number": "PO-2024-01029",
+    "po_date": "2025-11-01",
+    "vendor_name": "Atlas Equipment Corp",
+    "vendor_id": "V-1010",
+    "buyer_name": "Heather Schwartz",
+    "department": "Procurement",
+    "delivery_date": "2025-11-21",
+    "currency": "USD",
+    "total_amount": 4423.38,
+    "subtotal": 4423.38,
+    "tax": 575.04,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "PO-2024-01029_classic.pdf",
+      "file_size": 3574,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:45:42.428280",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01030",
+    "po_date": "2025-10-16",
+    "vendor_name": "Swift Logistics Co",
+    "vendor_id": null,
+    "buyer_name": "Dr. Brett Morris MD",
+    "department": "Manufacturing",
+    "delivery_date": "2025-11-05",
+    "currency": "USD",
+    "total_amount": 19356.84,
+    "subtotal": 17923.0,
+    "tax": 1433.84,
+    "line_items": [
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity": 6,
+        "unit_price": 2358.03,
+        "total": 14148.18
+      },
+      {
+        "item_code": "IN-002",
+        "description": "Steel Beam 10m I-Section",
+        "quantity": 7,
+        "unit_price": 539.26,
+        "total": 3774.82
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 2,
+    "metadata": {
+      "filename": "PO-2024-01030_creative.pdf",
+      "file_size": 2834,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:45:48.197330",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01031",
+    "po_date": "2025-10-06",
+    "vendor_name": "Global Tech Solutions",
+    "vendor_id": null,
+    "buyer_name": "Heather Lindsey",
+    "department": "IT",
+    "delivery_date": "2025-11-02",
+    "currency": "USD",
+    "total_amount": 399.8,
+    "subtotal": 399.8,
+    "tax": 0.0,
+    "line_items": [
+      {
+        "item_code": "OS-003",
+        "description": "Printer Paper A4 (5 Reams)",
+        "quantity": 10,
+        "unit_price": 39.98,
+        "total": 399.8
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 1,
+    "metadata": {
+      "filename": "PO-2024-01031_modern.pdf",
+      "file_size": 2497,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:45:54.204045",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01032",
+    "po_date": "2025-10-24",
+    "vendor_name": "Industrial Components Inc",
+    "vendor_id": null,
+    "buyer_name": "Brandon Lynch",
+    "department": "Procurement",
+    "delivery_date": "2025-11-23",
+    "currency": "USD",
+    "total_amount": 30273.05,
+    "subtotal": 28030.6,
+    "tax": 2242.45,
+    "line_items": [
+      {
+        "item_code": "OS-001",
+        "description": "Ergonomic Office Chair",
+        "quantity": 5,
+        "unit_price": 281.55,
+        "total": 1407.75
+      },
+      {
+        "item_code": "IT-002",
+        "description": "HP Desktop Workstation",
+        "quantity": 14,
+        "unit_price": 1180.25,
+        "total": 16523.5
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 2,
+    "metadata": {
+      "filename": "PO-2024-01032_creative.pdf",
+      "file_size": 2937,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:46:01.435281",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "purchase_order",
+    "po_number": "PO-2024-01033",
+    "po_date": "2025-10-23",
+    "vendor_name": "Nordic Supplies AB",
+    "vendor_id": "V-1009",
+    "buyer_name": "Brenda Ross",
+    "department": "Operations",
+    "delivery_date": "2025-11-10",
+    "currency": "USD",
+    "total_amount": 39646.6,
+    "subtotal": 39646.6,
+    "tax": 0.0,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "PO-2024-01033_classic.pdf",
+      "file_size": 3482,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:46:01.489937",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01034",
+    "po_date": "2025-10-03",
+    "vendor_name": "Global Tech Solutions",
+    "vendor_id": null,
+    "buyer_name": "Michael Walker",
+    "department": "Procurement",
+    "delivery_date": "2025-10-19",
+    "currency": "USD",
+    "total_amount": 5313.2,
+    "subtotal": 4919.67,
+    "tax": 393.57,
+    "line_items": [
+      {
+        "item_code": "IN-002",
+        "description": "Steel Beam 10m I-Section",
+        "quantity": 9,
+        "unit_price": 546.63,
+        "total": 4919.67
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 1,
+    "metadata": {
+      "filename": "PO-2024-01034_modern.pdf",
+      "file_size": 2519,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:46:07.668618",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01035",
+    "po_date": "2025-10-26",
+    "vendor_name": "Quality Manufacturing",
+    "vendor_id": null,
+    "buyer_name": "Nicholas Williams",
+    "department": "IT",
+    "delivery_date": "2025-11-25",
+    "currency": "USD",
+    "total_amount": 37346.44,
+    "subtotal": 37346.44,
+    "tax": 0.0,
+    "line_items": [
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity": 8,
+        "unit_price": 475.34,
+        "total": 3802.72
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 1,
+    "metadata": {
+      "filename": "PO-2024-01035_creative.pdf",
+      "file_size": 2832,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:46:15.017543",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01036",
+    "po_date": "2025-10-28",
+    "vendor_name": "Euro Parts Distributors",
+    "vendor_id": null,
+    "buyer_name": "Randall Luna",
+    "department": "Procurement",
+    "delivery_date": "2025-11-07",
+    "currency": "USD",
+    "total_amount": 23919.98,
+    "subtotal": 21745.44,
+    "tax": 2174.54,
+    "line_items": [
+      {
+        "item_code": "IT-001",
+        "description": "Dell Laptop XPS 15",
+        "quantity": 13,
+        "unit_price": 1278.49,
+        "total": 16620.37
+      },
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity": 5,
+        "unit_price": 448.47,
+        "total": 2242.35
+      },
+      {
+        "item_code": "OS-001",
+        "description": "Ergonomic Office Chair",
+        "quantity": 8,
+        "unit_price": 360.34,
+        "total": 2882.72
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 3,
+    "metadata": {
+      "filename": "PO-2024-01036_modern.pdf",
+      "file_size": 2684,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:46:21.997964",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01037",
+    "po_date": "2025-09-24",
+    "vendor_name": "Global Tech Solutions",
+    "vendor_id": null,
+    "buyer_name": "Jason Garza",
+    "department": "IT",
+    "delivery_date": "2025-10-15",
+    "currency": "USD",
+    "total_amount": 9101.2,
+    "subtotal": 8054.16,
+    "tax": 1047.04,
+    "line_items": [
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity": 12,
+        "unit_price": 671.18,
+        "total": 8054.16
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 1,
+    "metadata": {
+      "filename": "PO-2024-01037_creative.pdf",
+      "file_size": 2699,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:46:27.498939",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01038",
+    "po_date": "2025-10-17",
+    "vendor_name": "Atlas Equipment Corp",
+    "vendor_id": null,
+    "buyer_name": "Jeffrey Keller",
+    "department": "Facilities",
+    "delivery_date": "2025-11-02",
+    "currency": "USD",
+    "total_amount": 13691.43,
+    "subtotal": 13691.43,
+    "tax": 0.0,
+    "line_items": [
+      {
+        "item_code": "OS-002",
+        "description": "Standing Desk Adjustable",
+        "quantity": 1,
+        "unit_price": 492.48,
+        "total": 492.48
+      },
+      {
+        "item_code": "IT-003",
+        "description": "Cisco Network Switch 24-Port",
+        "quantity": 15,
+        "unit_price": 879.93,
+        "total": 13198.95
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 2,
+    "metadata": {
+      "filename": "PO-2024-01038_creative.pdf",
+      "file_size": 2833,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:46:34.624015",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01039",
+    "po_date": "2025-10-23",
+    "vendor_name": "Industrial Components Inc",
+    "vendor_id": null,
+    "buyer_name": "Amber Miller",
+    "department": "Procurement",
+    "delivery_date": "2025-11-06",
+    "currency": "USD",
+    "total_amount": 5176.3,
+    "subtotal": 4705.74,
+    "tax": 470.57,
+    "line_items": [
+      {
+        "item_code": "OS-001",
+        "description": "Ergonomic Office Chair",
+        "quantity": 13,
+        "unit_price": 361.98,
+        "total": 4705.74
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 1,
+    "metadata": {
+      "filename": "PO-2024-01039_modern.pdf",
+      "file_size": 2509,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:46:40.327199",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01040",
+    "po_date": "2025-10-02",
+    "vendor_name": "Industrial Components Inc",
+    "vendor_id": null,
+    "buyer_name": "Charles Cole",
+    "department": "Manufacturing",
+    "delivery_date": "2025-10-19",
+    "currency": "USD",
+    "total_amount": 1261.6,
+    "subtotal": 1168.23,
+    "tax": 93.46,
+    "line_items": [
+      {
+        "item_code": "IN-003",
+        "description": "Safety Harness Kit",
+        "quantity": 3,
+        "unit_price": 238.14,
+        "total": 714.42
+      },
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity": 1,
+        "unit_price": 453.81,
+        "total": 453.81
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 2,
+    "metadata": {
+      "filename": "PO-2024-01040_modern.pdf",
+      "file_size": 2563,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:46:46.938203",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01041",
+    "po_date": "2025-11-02",
+    "vendor_name": "Swift Logistics Co",
+    "vendor_id": null,
+    "buyer_name": "Terri Lam",
+    "department": "Operations",
+    "delivery_date": "2025-11-26",
+    "currency": "USD",
+    "total_amount": 1190.78,
+    "subtotal": 1134.08,
+    "tax": 56.7,
+    "line_items": [
+      {
+        "item_code": "IN-003",
+        "description": "Safety Harness Kit",
+        "quantity": 2,
+        "unit_price": 188.25,
+        "total": 376.5
+      },
+      {
+        "item_code": "IN-002",
+        "description": "Steel Beam 10m I-Section",
+        "quantity": 1,
+        "unit_price": 757.58,
+        "total": 757.58
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 2,
+    "metadata": {
+      "filename": "PO-2024-01041_creative.pdf",
+      "file_size": 2798,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:46:52.794469",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01042",
+    "po_date": "2025-09-29",
+    "vendor_name": "Quality Manufacturing",
+    "vendor_id": null,
+    "buyer_name": "Erin Flores",
+    "department": "Facilities",
+    "delivery_date": "2025-10-29",
+    "currency": "USD",
+    "total_amount": 3726.42,
+    "subtotal": 3450.39,
+    "tax": 276.03,
+    "line_items": [
+      {
+        "item_code": "IN-004",
+        "description": "Industrial LED Lighting 100W",
+        "quantity": 4,
+        "unit_price": 81.66,
+        "total": 326.64
+      },
+      {
+        "item_code": "IN-003",
+        "description": "Safety Harness Kit",
+        "quantity": 4,
+        "unit_price": 189.85,
+        "total": 759.4
+      },
+      {
+        "item_code": "IT-004",
+        "description": "Samsung 27\" Monitor",
+        "quantity": 5,
+        "unit_price": 472.87,
+        "total": 2364.35
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 3,
+    "metadata": {
+      "filename": "PO-2024-01042_creative.pdf",
+      "file_size": 2907,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:46:59.740188",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "purchase_order",
+    "po_number": "PO-2024-01043",
+    "po_date": "2025-11-15",
+    "vendor_name": "Nordic Supplies AB",
+    "vendor_id": "V-1009",
+    "buyer_name": "Jose Washington",
+    "department": "Manufacturing",
+    "delivery_date": "2025-12-14",
+    "currency": "USD",
+    "total_amount": 6523.76,
+    "subtotal": 6523.76,
+    "tax": 521.9,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "PO-2024-01043_classic.pdf",
+      "file_size": 3807,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:46:59.801480",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01044",
+    "po_date": "2025-10-08",
+    "vendor_name": "Nordic Supplies AB",
+    "vendor_id": null,
+    "buyer_name": "Eric Grant",
+    "department": "IT",
+    "delivery_date": "2025-10-31",
+    "currency": "USD",
+    "total_amount": 9282.28,
+    "subtotal": 8594.7,
+    "tax": 687.58,
+    "line_items": [
+      {
+        "item_code": "OS-002",
+        "description": "Standing Desk Adjustable",
+        "quantity": 15,
+        "unit_price": 572.98,
+        "total": 8594.7
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 1,
+    "metadata": {
+      "filename": "PO-2024-01044_creative.pdf",
+      "file_size": 2699,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:47:05.306472",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01045",
+    "po_date": "2025-09-25",
+    "vendor_name": "Acme Supplies Ltd",
+    "vendor_id": null,
+    "buyer_name": "Lorraine Ruiz",
+    "department": "Finance",
+    "delivery_date": "2025-10-08",
+    "currency": "USD",
+    "total_amount": 9034.6,
+    "subtotal": 8365.44,
+    "tax": 669.24,
+    "line_items": [
+      {
+        "item_code": "OS-001",
+        "description": "Ergonomic Office Chair",
+        "quantity": 2,
+        "unit_price": 439.77,
+        "total": 879.54
+      },
+      {
+        "item_code": "OS-002",
+        "description": "Standing Desk Adjustable",
+        "quantity": 15,
+        "unit_price": 499.06,
+        "total": 7485.9
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 2,
+    "metadata": {
+      "filename": "PO-2024-01045_modern.pdf",
+      "file_size": 2607,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:47:12.234438",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01046",
+    "po_date": null,
+    "vendor_name": "Swift Logistics Co",
+    "vendor_id": null,
+    "buyer_name": "William Moss",
+    "department": "Finance",
+    "delivery_date": "2025-12-01",
+    "currency": "USD",
+    "total_amount": 30739.84,
+    "subtotal": 27945.31,
+    "tax": 2794.53,
+    "line_items": [
+      {
+        "item_code": "IN-001",
+        "description": "Hydraulic Pump Assembly",
+        "quantity": 7,
+        "unit_price": 3045.81,
+        "total": 21320.67
+      },
+      {
+        "item_code": "OS-002",
+        "description": "Standing Desk Adjustable",
+        "quantity": 9,
+        "unit_price": 438.19,
+        "total": 3943.71
+      },
+      {
+        "item_code": "OS-001",
+        "description": "Ergonomic Office Chair",
+        "quantity": 7,
+        "unit_price": 382.99,
+        "total": 2680.93
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 3,
+    "metadata": {
+      "filename": "PO-2024-01046_modern.pdf",
+      "file_size": 2697,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:47:17.824385",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "purchase_order",
+    "po_number": "PO-2024-01047",
+    "po_date": "2025-11-13",
+    "vendor_name": "Atlas Equipment Corp",
+    "vendor_id": "V-1010",
+    "buyer_name": "John Wade",
+    "department": "Manufacturing",
+    "delivery_date": "2025-12-07",
+    "currency": "USD",
+    "total_amount": 19608.61,
+    "subtotal": 19608.61,
+    "tax": 1960.86,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "PO-2024-01047_classic.pdf",
+      "file_size": 3706,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:47:17.886809",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01048",
+    "po_date": "2025-10-20",
+    "vendor_name": "Industrial Components Inc",
+    "vendor_id": null,
+    "buyer_name": "Tyrone Clark",
+    "department": "Finance",
+    "delivery_date": "2025-11-08",
+    "currency": "USD",
+    "total_amount": 26816.71,
+    "subtotal": 25539.72,
+    "tax": 1276.99,
+    "line_items": [
+      {
+        "item_code": "IN-003",
+        "description": "Safety Harness Kit",
+        "quantity": 11,
+        "unit_price": 158.48,
+        "total": 1743.28
+      },
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity": 9,
+        "unit_price": 599.16,
+        "total": 5392.44
+      },
+      {
+        "item_code": "IN-002",
+        "description": "Steel Beam 10m I-Section",
+        "quantity": 10,
+        "unit_price": 600.56,
+        "total": 6005.6
+      },
+      {
+        "item_code": "IT-003",
+        "description": "Cisco Network Switch 24-Port",
+        "quantity": 14,
+        "unit_price": 885.6,
+        "total": 12398.4
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 4,
+    "metadata": {
+      "filename": "PO-2024-01048_creative.pdf",
+      "file_size": 3002,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:47:25.544020",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01049",
+    "po_date": "2025-10-10",
+    "vendor_name": "Industrial Components Inc",
+    "vendor_id": null,
+    "buyer_name": "Ms. Kimberly Blair PhD",
+    "department": "Manufacturing",
+    "delivery_date": "2025-11-02",
+    "currency": "USD",
+    "total_amount": 13207.53,
+    "subtotal": 13207.53,
+    "tax": 0.0,
+    "line_items": [
+      {
+        "item_code": "IT-003",
+        "description": "Cisco Network Switch 24-Port",
+        "quantity": 1,
+        "unit_price": 673.45,
+        "total": 673.45
+      },
+      {
+        "item_code": "IT-001",
+        "description": "Dell Laptop XPS 15",
+        "quantity": 8,
+        "unit_price": 1566.76,
+        "total": 12534.08
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 2,
+    "metadata": {
+      "filename": "PO-2024-01049_creative.pdf",
+      "file_size": 2833,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:47:31.284989",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01050",
+    "po_date": "2025-10-17",
+    "vendor_name": "Atlas Equipment Corp",
+    "vendor_id": null,
+    "buyer_name": "Courtney Davis",
+    "department": "IT",
+    "delivery_date": "2025-11-09",
+    "currency": "USD",
+    "total_amount": 6315.25,
+    "subtotal": 6315.25,
+    "tax": 0.0,
+    "line_items": [
+      {
+        "item_code": "IN-002",
+        "description": "Steel Beam 10m I-Section",
+        "quantity": 7,
+        "unit_price": 648.31,
+        "total": 4538.17
+      },
+      {
+        "item_code": "IN-005",
+        "description": "Air Compressor 50L",
+        "quantity": 4,
+        "unit_price": 444.27,
+        "total": 1777.08
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 2,
+    "metadata": {
+      "filename": "PO-2024-01050_creative.pdf",
+      "file_size": 2802,
+      "layout_style": "creative",
+      "processed_at": "2025-12-26T17:47:37.774649",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-01001",
+    "po_date": "2025-10-18",
+    "vendor_name": "Global Tech Solutions",
+    "vendor_id": null,
+    "buyer_name": "Juan Turner",
+    "department": "Finance",
+    "delivery_date": "2025-10-31",
+    "currency": "USD",
+    "total_amount": 3010.72,
+    "subtotal": 2867.35,
+    "tax": 143.37,
+    "line_items": [
+      {
+        "item_code": "IN-002",
+        "description": "Steel Beam 10m I-Section",
+        "quantity": 5,
+        "unit_price": 573.47,
+        "total": 2867.35
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 1,
+    "metadata": {
+      "filename": "PO-2024-01099.pdf",
+      "file_size": 2710,
+      "layout_style": "unknown",
+      "processed_at": "2025-12-26T17:47:43.773285",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "purchase_order",
+    "po_number": "PO-2024-01006",
+    "po_date": "2025-10-17",
+    "vendor_name": "Nordic Supplies AB",
+    "vendor_id": "V-1009",
+    "buyer_name": "Mary Nelson",
+    "department": "Finance",
+    "delivery_date": "2025-11-15",
+    "currency": "USD",
+    "total_amount": 2965.48,
+    "subtotal": 2965.48,
+    "tax": 237.24,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "PO-2024-01999_classic.pdf",
+      "file_size": 3473,
+      "layout_style": "classic",
+      "processed_at": "2025-12-26T17:47:43.828997",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-2024-99999",
+    "po_date": "2025-12-19",
+    "vendor_name": "Advanced Tech Solutions Ltd",
+    "vendor_id": "V-8888",
+    "buyer_name": "Emily Chen",
+    "department": "Research & Development",
+    "delivery_date": "2026-01-18",
+    "currency": "USD",
+    "total_amount": 36156.2,
+    "subtotal": 33015.0,
+    "tax": 2641.2,
+    "line_items": [
+      {
+        "item_code": "001",
+        "description": "High-Performance Server Rack (42U)",
+        "quantity": 5,
+        "unit_price": 2450.0,
+        "total": 12250.0
+      },
+      {
+        "item_code": "002",
+        "description": "Enterprise SSD Storage (2TB)",
+        "quantity": 20,
+        "unit_price": 385.0,
+        "total": 7700.0
+      },
+      {
+        "item_code": "003",
+        "description": "Network Switch (48-Port Gigabit)",
+        "quantity": 8,
+        "unit_price": 892.5,
+        "total": 7140.0
+      },
+      {
+        "item_code": "004",
+        "description": "UPS Battery Backup (3000VA)",
+        "quantity": 6,
+        "unit_price": 675.0,
+        "total": 4050.0
+      },
+      {
+        "item_code": "005",
+        "description": "Fiber Optic Cables (100m)",
+        "quantity": 15,
+        "unit_price": 125.0,
+        "total": 1875.0
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 5,
+    "metadata": {
+      "filename": "PO-2024-99999_modern.pdf",
+      "file_size": 3991,
+      "layout_style": "modern",
+      "processed_at": "2025-12-26T17:47:51.349320",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-LIVE-DEMO",
+    "po_date": "2025-12-19",
+    "vendor_name": "Real-Time Detection Systems Inc",
+    "vendor_id": null,
+    "buyer_name": "Auto-Ingestion Tester",
+    "department": "Quality Assurance",
+    "delivery_date": null,
+    "currency": "USD",
+    "total_amount": 15750.0,
+    "subtotal": null,
+    "tax": null,
+    "line_items": [],
+    "document_type": "purchase_order",
+    "item_count": 0,
+    "metadata": {
+      "filename": "PO-LIVE-173551.pdf",
+      "file_size": 1837,
+      "layout_style": "unknown",
+      "processed_at": "2025-12-26T17:47:54.599431",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "document_type": "purchase_order",
+    "po_number": "PO-2024-01006",
+    "po_date": "2025-10-17",
+    "vendor_name": "Nordic Supplies AB",
+    "vendor_id": "V-1009",
+    "buyer_name": "Mary Nelson",
+    "department": "Finance",
+    "delivery_date": "2025-11-15",
+    "currency": "USD",
+    "total_amount": 2965.48,
+    "subtotal": 2965.48,
+    "tax": 237.24,
+    "line_items": [],
+    "item_count": 0,
+    "metadata": {
+      "filename": "PO-TEST-99999_watcher_test.pdf",
+      "file_size": 3473,
+      "layout_style": "unknown",
+      "processed_at": "2025-12-26T17:47:54.706702",
+      "extraction_method": "regex",
+      "extraction_confidence": "high"
+    }
+  },
+  {
+    "po_number": "PO-TEST-7365",
+    "po_date": "2025-12-21",
+    "vendor_name": "Global Office Supplies Inc.",
+    "vendor_id": null,
+    "buyer_name": null,
+    "department": null,
+    "delivery_date": "2025-01-15",
+    "currency": "USD",
+    "total_amount": 38745.72,
+    "subtotal": null,
+    "tax": null,
+    "line_items": [
+      {
+        "item_code": null,
+        "description": "Laptop Computers - Dell XPS 15",
+        "quantity": 25,
+        "unit_price": 774.91,
+        "total": 19372.86
+      },
+      {
+        "item_code": null,
+        "description": "Office Chairs - Ergonomic Series",
+        "quantity": 50,
+        "unit_price": 232.47,
+        "total": 11623.72
+      },
+      {
+        "item_code": null,
+        "description": "Standing Desks - Adjustable",
+        "quantity": 20,
+        "unit_price": 387.46,
+        "total": 7749.14
+      }
+    ],
+    "document_type": "purchase_order",
+    "item_count": 3,
+    "metadata": {
+      "filename": "test_purchase_order_20251221_170933.pdf",
+      "file_size": 2510,
+      "layout_style": "unknown",
+      "processed_at": "2025-12-26T17:48:09.474919",
+      "extraction_method": "llm",
+      "extraction_confidence": "high"
+    }
+  }
+]
